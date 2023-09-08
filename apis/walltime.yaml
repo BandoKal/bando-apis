@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: walltime
+  annotations:
+    system: blockchain-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Walltime
+      version: 1.0.0
+      description: To retrieve Walltime's market info
+    externalDocs:
+      url: https://walltime.info/api.html

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: penguin-publishing
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Penguin Publishing
+      version: 1.0.0
+      description: Books, book covers and related data
+    externalDocs:
+      url: http://www.penguinrandomhouse.biz/webservices/rest/

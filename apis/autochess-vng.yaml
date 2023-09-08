@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: autochess-vng
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Autochess VNG
+      version: 1.0.0
+      description: Rest Api for Autochess VNG
+    externalDocs:
+      url: https://github.com/didadadida93/autochess-vng-api

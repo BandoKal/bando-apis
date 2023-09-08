@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geoapi
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GeoApi
+      version: 1.0.0
+      description: French geographical data
+    externalDocs:
+      url: https://api.gouv.fr/api/geoapi.html

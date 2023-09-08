@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: one-map,-singapore
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: One Map, Singapore
+      version: 1.0.0
+      description: Singapore Land Authority REST API services for Singapore addresses
+    externalDocs:
+      url: https://www.onemap.gov.sg/docs/

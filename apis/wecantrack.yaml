@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: wecantrack
+  annotations:
+    system: tracking-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: WeCanTrack
+      version: 1.0.0
+      description: Automatically place subids in affiliate links to attribute affiliate conversions to click data
+    externalDocs:
+      url: https://docs.wecantrack.com

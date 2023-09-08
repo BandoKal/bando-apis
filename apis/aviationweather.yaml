@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: aviationweather
+  annotations:
+    system: weather-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: AviationWeather
+      version: 1.0.0
+      description: NOAA aviation weather forecasts and observations
+    externalDocs:
+      url: https://www.aviationweather.gov/dataserver

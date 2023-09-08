@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: uber
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Uber
+      version: 1.0.0
+      description: Uber ride requests and price estimation
+    externalDocs:
+      url: https://developer.uber.com/products

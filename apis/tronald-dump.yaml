@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tronald-dump
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Tronald Dump
+      version: 1.0.0
+      description: The dumbest things Donald Trump has ever said
+    externalDocs:
+      url: https://www.tronalddump.io/

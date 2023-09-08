@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: iqair
+  annotations:
+    system: environment-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: IQAir
+      version: 1.0.0
+      description: Air quality and weather data
+    externalDocs:
+      url: https://www.iqair.com/air-pollution-data-api

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: itsthisforthat
+  annotations:
+    system: test-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ItsThisForThat
+      version: 1.0.0
+      description: Generate Random startup ideas
+    externalDocs:
+      url: https://itsthisforthat.com/api.php

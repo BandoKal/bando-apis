@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cloudconvert
+  annotations:
+    system: documents-&-productivity-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CloudConvert
+      version: 1.0.0
+      description: Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation
+    externalDocs:
+      url: https://cloudconvert.com/api/v2

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: git.io
+  annotations:
+    system: url-shorteners-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Git.io
+      version: 1.0.0
+      description: Git.io URL shortener
+    externalDocs:
+      url: https://github.blog/2011-11-10-git-io-github-url-shortener/

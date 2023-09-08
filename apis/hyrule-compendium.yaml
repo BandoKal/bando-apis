@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hyrule-compendium
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Hyrule Compendium
+      version: 1.0.0
+      description: Data on all interactive items from The Legend of Zelda: BOTW
+    externalDocs:
+      url: https://github.com/gadhagod/Hyrule-Compendium-API

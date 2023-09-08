@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: football-standings
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Football Standings
+      version: 1.0.0
+      description: Display football standings e.g epl, la liga, serie a etc. The data is based on espn site
+    externalDocs:
+      url: https://github.com/azharimm/football-standings-api

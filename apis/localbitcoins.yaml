@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: localbitcoins
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Localbitcoins
+      version: 1.0.0
+      description: P2P platform to buy and sell Bitcoins
+    externalDocs:
+      url: https://localbitcoins.com/api-docs/

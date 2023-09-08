@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mlb-records-and-stats
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: MLB Records and Stats
+      version: 1.0.0
+      description: Current and historical MLB statistics
+    externalDocs:
+      url: https://appac.github.io/mlb-data-api-docs/

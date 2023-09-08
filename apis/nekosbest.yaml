@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: nekosbest
+  annotations:
+    system: anime-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: NekosBest
+      version: 1.0.0
+      description: Neko Images & Anime roleplaying GIFs
+    externalDocs:
+      url: https://docs.nekos.best

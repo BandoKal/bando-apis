@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: kelley-blue-book
+  annotations:
+    system: vehicle-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Kelley Blue Book
+      version: 1.0.0
+      description: Vehicle info, pricing, configuration, plus much more
+    externalDocs:
+      url: http://developer.kbb.com/#!/data/1-Default

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bhagavad-gita-telugu
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Bhagavad Gita telugu
+      version: 1.0.0
+      description: Bhagavad Gita API in telugu and odia languages
+    externalDocs:
+      url: https://gita-api.vercel.app

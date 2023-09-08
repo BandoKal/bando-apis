@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: non-working-days
+  annotations:
+    system: calendar-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Non-Working Days
+      version: 1.0.0
+      description: Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other
+    externalDocs:
+      url: https://isdayoff.ru

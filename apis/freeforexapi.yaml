@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: freeforexapi
+  annotations:
+    system: currency-exchange-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: FreeForexAPI
+      version: 1.0.0
+      description: Real-time foreign exchange rates for major currency pairs
+    externalDocs:
+      url: https://freeforexapi.com/Home/Api

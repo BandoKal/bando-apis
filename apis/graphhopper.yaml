@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: graphhopper
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GraphHopper
+      version: 1.0.0
+      description: A-to-B routing with turn-by-turn instructions
+    externalDocs:
+      url: https://docs.graphhopper.com/

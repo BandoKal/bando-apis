@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dropmail
+  annotations:
+    system: email-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: DropMail
+      version: 1.0.0
+      description: GraphQL API for creating and managing ephemeral e-mail inboxes
+    externalDocs:
+      url: https://dropmail.me/api/#live-demo

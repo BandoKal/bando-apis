@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: holidays
+  annotations:
+    system: calendar-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Holidays
+      version: 1.0.0
+      description: Historical data regarding holidays
+    externalDocs:
+      url: https://holidayapi.com/

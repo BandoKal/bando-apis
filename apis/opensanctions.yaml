@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: opensanctions
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: OpenSanctions
+      version: 1.0.0
+      description: Data on international sanctions, crime and politically exposed persons
+    externalDocs:
+      url: https://www.opensanctions.org/docs/api/

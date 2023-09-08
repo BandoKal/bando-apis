@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dicebear-avatars
+  annotations:
+    system: test-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Dicebear Avatars
+      version: 1.0.0
+      description: Generate random pixel-art avatars
+    externalDocs:
+      url: https://avatars.dicebear.com/

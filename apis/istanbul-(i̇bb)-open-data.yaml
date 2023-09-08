@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: istanbul-(i̇bb)-open-data
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Istanbul (İBB) Open Data
+      version: 1.0.0
+      description: Data sets from the İstanbul Metropolitan Municipality (İBB)
+    externalDocs:
+      url: https://data.ibb.gov.tr

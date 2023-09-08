@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: the-lord-of-the-rings
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: The Lord of the Rings
+      version: 1.0.0
+      description: The Lord of the Rings API
+    externalDocs:
+      url: https://the-one-api.dev/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bay-area-rapid-transit
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Bay Area Rapid Transit
+      version: 1.0.0
+      description: Stations and predicted arrivals for BART
+    externalDocs:
+      url: http://api.bart.gov

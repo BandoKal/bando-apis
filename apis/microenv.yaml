@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: microenv
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: MicroENV
+      version: 1.0.0
+      description: Fake Rest API for developers
+    externalDocs:
+      url: https://microenv.com/

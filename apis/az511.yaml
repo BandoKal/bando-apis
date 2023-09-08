@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: az511
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: AZ511
+      version: 1.0.0
+      description: Access traffic data from the ADOT API
+    externalDocs:
+      url: https://www.az511.com/developers/doc

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: upwork
+  annotations:
+    system: jobs-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Upwork
+      version: 1.0.0
+      description: Freelance job board and management system
+    externalDocs:
+      url: https://developers.upwork.com/

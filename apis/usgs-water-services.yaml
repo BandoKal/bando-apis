@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: usgs-water-services
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: USGS Water Services
+      version: 1.0.0
+      description: Water quality and level info for rivers and lakes
+    externalDocs:
+      url: https://waterservices.usgs.gov/

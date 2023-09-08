@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-data-minneapolis
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Data Minneapolis
+      version: 1.0.0
+      description: Spatial (GIS) and non-spatial city data for Minneapolis
+    externalDocs:
+      url: https://opendata.minneapolismn.gov/

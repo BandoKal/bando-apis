@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: inshorts-news
+  annotations:
+    system: news-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Inshorts News
+      version: 1.0.0
+      description: Provides news from inshorts
+    externalDocs:
+      url: https://github.com/cyberboysumanjay/Inshorts-News-API

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mercadopago
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: MercadoPago
+      version: 1.0.0
+      description: Mercado Pago API reference - all the information you need to develop your integrations
+    externalDocs:
+      url: https://www.mercadopago.com.br/developers/es/reference

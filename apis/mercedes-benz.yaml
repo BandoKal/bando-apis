@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mercedes-benz
+  annotations:
+    system: vehicle-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Mercedes-Benz
+      version: 1.0.0
+      description: Telematics data, remotely access vehicle functions, car configurator, locate service dealers
+    externalDocs:
+      url: https://developer.mercedes-benz.com/apis

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: xcolors
+  annotations:
+    system: art-&-design-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: xColors
+      version: 1.0.0
+      description: Generate & convert colors
+    externalDocs:
+      url: https://x-colors.herokuapp.com/

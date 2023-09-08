@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sport-list-&-data
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Sport List & Data
+      version: 1.0.0
+      description: List of and resources related to sports
+    externalDocs:
+      url: https://developers.decathlon.com/products/sports

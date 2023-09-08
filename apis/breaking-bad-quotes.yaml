@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: breaking-bad-quotes
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Breaking Bad Quotes
+      version: 1.0.0
+      description: Some Breaking Bad quotes
+    externalDocs:
+      url: https://github.com/shevabam/breaking-bad-quotes

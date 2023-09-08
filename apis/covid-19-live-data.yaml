@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: covid-19-live-data
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Covid-19 Live Data
+      version: 1.0.0
+      description: Global and countrywise data of Covid 19 daily Summary, confirmed cases, recovered and deaths
+    externalDocs:
+      url: https://github.com/mathdroid/covid-19-api

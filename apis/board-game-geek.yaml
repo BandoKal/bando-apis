@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: board-game-geek
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Board Game Geek
+      version: 1.0.0
+      description: Board games, RPG and videogames
+    externalDocs:
+      url: https://boardgamegeek.com/wiki/page/BGG_XML_API2

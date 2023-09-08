@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: trello
+  annotations:
+    system: business-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Trello
+      version: 1.0.0
+      description: Boards, lists and cards to help you organize and prioritize your projects
+    externalDocs:
+      url: https://developers.trello.com/

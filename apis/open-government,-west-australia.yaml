@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-government,-west-australia
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Government, West Australia
+      version: 1.0.0
+      description: West Australia Open Data
+    externalDocs:
+      url: https://data.wa.gov.au/

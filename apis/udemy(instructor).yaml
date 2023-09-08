@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: udemy(instructor)
+  annotations:
+    system: personality-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Udemy(instructor)
+      version: 1.0.0
+      description: API for instructors on Udemy
+    externalDocs:
+      url: https://www.udemy.com/developers/instructor/

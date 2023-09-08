@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: movebank
+  annotations:
+    system: animals-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Movebank
+      version: 1.0.0
+      description: Movement and Migration data of animals
+    externalDocs:
+      url: https://github.com/movebank/movebank-api-doc

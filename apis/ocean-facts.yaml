@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ocean-facts
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Ocean Facts
+      version: 1.0.0
+      description: Facts pertaining to the physical science of Oceanography
+    externalDocs:
+      url: https://oceanfacts.herokuapp.com/

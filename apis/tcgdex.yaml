@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tcgdex
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: TCGdex
+      version: 1.0.0
+      description: Multi languages Pokémon TCG Information
+    externalDocs:
+      url: https://www.tcgdex.net/docs

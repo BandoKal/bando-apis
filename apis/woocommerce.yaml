@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: woocommerce
+  annotations:
+    system: shopping-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: WooCommerce
+      version: 1.0.0
+      description: WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format
+    externalDocs:
+      url: https://woocommerce.github.io/woocommerce-rest-api-docs/

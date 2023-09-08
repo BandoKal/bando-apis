@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gmail
+  annotations:
+    system: business-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Gmail
+      version: 1.0.0
+      description: Flexible, RESTful access to the user's inbox
+    externalDocs:
+      url: https://developers.google.com/gmail/api/

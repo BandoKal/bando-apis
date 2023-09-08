@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bugcrowd
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Bugcrowd
+      version: 1.0.0
+      description: Bugcrowd API for interacting and tracking the reported issues programmatically
+    externalDocs:
+      url: https://docs.bugcrowd.com/api/getting-started/

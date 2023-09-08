@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tle
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: TLE
+      version: 1.0.0
+      description: Satellite information
+    externalDocs:
+      url: https://tle.ivanstanojevic.me/#/docs

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: vadivelu-http-codes
+  annotations:
+    system: personality-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Vadivelu HTTP Codes
+      version: 1.0.0
+      description: On demand HTTP Codes with images
+    externalDocs:
+      url: https://vadivelu.anoram.com/

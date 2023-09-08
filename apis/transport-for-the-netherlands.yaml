@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: transport-for-the-netherlands
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Transport for The Netherlands
+      version: 1.0.0
+      description: OVAPI, country-wide public transport
+    externalDocs:
+      url: https://github.com/skywave/KV78Turbo-OVAPI/wiki

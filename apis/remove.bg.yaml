@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: remove.bg
+  annotations:
+    system: photography-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Remove.bg
+      version: 1.0.0
+      description: Image Background removal
+    externalDocs:
+      url: https://www.remove.bg/api

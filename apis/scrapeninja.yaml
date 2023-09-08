@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: scrapeninja
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ScrapeNinja
+      version: 1.0.0
+      description: Scraping API with Chrome fingerprint and residential proxies
+    externalDocs:
+      url: https://scrapeninja.net

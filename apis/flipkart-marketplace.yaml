@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: flipkart-marketplace
+  annotations:
+    system: shopping-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Flipkart Marketplace
+      version: 1.0.0
+      description: Product listing management, Order Fulfilment in the Flipkart Marketplace
+    externalDocs:
+      url: https://seller.flipkart.com/api-docs/FMSAPI.html

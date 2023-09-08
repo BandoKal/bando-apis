@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: isro
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ISRO
+      version: 1.0.0
+      description: ISRO Space Crafts Information
+    externalDocs:
+      url: https://isro.vercel.app

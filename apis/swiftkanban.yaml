@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: swiftkanban
+  annotations:
+    system: business-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: SwiftKanban
+      version: 1.0.0
+      description: Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity
+    externalDocs:
+      url: https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi

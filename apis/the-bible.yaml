@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: the-bible
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: The Bible
+      version: 1.0.0
+      description: Everything you need from the Bible in one discoverable place
+    externalDocs:
+      url: https://docs.api.bible

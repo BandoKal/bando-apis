@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: chronicling-america
+  annotations:
+    system: news-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Chronicling America
+      version: 1.0.0
+      description: Provides access to millions of pages of historic US newspapers from the Library of Congress
+    externalDocs:
+      url: http://chroniclingamerica.loc.gov/about/api/

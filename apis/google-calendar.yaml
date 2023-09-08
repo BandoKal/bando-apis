@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: google-calendar
+  annotations:
+    system: calendar-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Google Calendar
+      version: 1.0.0
+      description: Display, create and modify Google calendar events
+    externalDocs:
+      url: https://developers.google.com/google-apps/calendar/

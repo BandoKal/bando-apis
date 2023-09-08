@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: abuseipdb
+  annotations:
+    system: anti-malware-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: AbuseIPDB
+      version: 1.0.0
+      description: IP/domain/URL reputation
+    externalDocs:
+      url: https://docs.abuseipdb.com/

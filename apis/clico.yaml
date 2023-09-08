@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: clico
+  annotations:
+    system: url-shorteners-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Clico
+      version: 1.0.0
+      description: URL shortener service
+    externalDocs:
+      url: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config

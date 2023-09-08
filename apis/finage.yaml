@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: finage
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Finage
+      version: 1.0.0
+      description: Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider
+    externalDocs:
+      url: https://finage.co.uk

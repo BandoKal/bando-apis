@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: restpack
+  annotations:
+    system: documents-&-productivity-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Restpack
+      version: 1.0.0
+      description: Provides screenshot, HTML to PDF and content extraction APIs
+    externalDocs:
+      url: https://restpack.io/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: a-bíblia-digital
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: A Bíblia Digital
+      version: 1.0.0
+      description: Do not worry about managing the multiple versions of the Bible
+    externalDocs:
+      url: https://www.abibliadigital.com.br/en

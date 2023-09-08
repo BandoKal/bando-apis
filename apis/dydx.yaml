@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dydx
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: dYdX
+      version: 1.0.0
+      description: Decentralized cryptocurrency exchange
+    externalDocs:
+      url: https://docs.dydx.exchange/

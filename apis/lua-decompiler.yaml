@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: lua-decompiler
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Lua Decompiler
+      version: 1.0.0
+      description: Online Lua 5.1 Decompiler
+    externalDocs:
+      url: https://lua-decompiler.ferib.dev/

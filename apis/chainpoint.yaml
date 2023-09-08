@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: chainpoint
+  annotations:
+    system: blockchain-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Chainpoint
+      version: 1.0.0
+      description: Chainpoint is a global network for anchoring data to the Bitcoin blockchain
+    externalDocs:
+      url: https://tierion.com/chainpoint/

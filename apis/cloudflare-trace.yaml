@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cloudflare-trace
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cloudflare Trace
+      version: 1.0.0
+      description: Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More
+    externalDocs:
+      url: https://github.com/fawazahmed0/cloudflare-trace-api

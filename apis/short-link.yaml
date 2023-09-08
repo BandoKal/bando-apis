@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: short-link
+  annotations:
+    system: url-shorteners-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Short Link
+      version: 1.0.0
+      description: Short URLs support so many domains
+    externalDocs:
+      url: https://github.com/FayasNoushad/Short-Link-API

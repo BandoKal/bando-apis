@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: uk-carbon-intensity
+  annotations:
+    system: environment-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: UK Carbon Intensity
+      version: 1.0.0
+      description: The Official Carbon Intensity API for Great Britain developed by National Grid
+    externalDocs:
+      url: https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0

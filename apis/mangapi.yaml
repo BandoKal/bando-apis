@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mangapi
+  annotations:
+    system: anime-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Mangapi
+      version: 1.0.0
+      description: Translate manga pages from one language to another
+    externalDocs:
+      url: https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/

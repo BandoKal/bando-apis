@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: upc-database
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: UPC database
+      version: 1.0.0
+      description: More than 1.5 million barcode numbers from all around the world
+    externalDocs:
+      url: https://upcdatabase.org/api

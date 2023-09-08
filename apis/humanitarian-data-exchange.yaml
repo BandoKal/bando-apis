@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: humanitarian-data-exchange
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Humanitarian Data Exchange
+      version: 1.0.0
+      description: Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations
+    externalDocs:
+      url: https://data.humdata.org/

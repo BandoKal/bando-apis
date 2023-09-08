@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sawo-labs
+  annotations:
+    system: authentication-&-authorization-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: SAWO Labs
+      version: 1.0.0
+      description: Simplify login and improve user experience by integrating passwordless authentication in your app
+    externalDocs:
+      url: https://sawolabs.com

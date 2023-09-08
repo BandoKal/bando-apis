@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mail.gw
+  annotations:
+    system: email-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: mail.gw
+      version: 1.0.0
+      description: 10 Minute Mail
+    externalDocs:
+      url: https://docs.mail.gw

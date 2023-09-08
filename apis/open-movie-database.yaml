@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-movie-database
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Movie Database
+      version: 1.0.0
+      description: Movie information
+    externalDocs:
+      url: http://www.omdbapi.com/

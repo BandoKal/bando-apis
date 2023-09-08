@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: quotable-quotes
+  annotations:
+    system: personality-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Quotable Quotes
+      version: 1.0.0
+      description: Quotable is a free, open source quotations API
+    externalDocs:
+      url: https://github.com/lukePeavey/quotable

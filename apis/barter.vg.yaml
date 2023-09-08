@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: barter.vg
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Barter.VG
+      version: 1.0.0
+      description: Provides information about Game, DLC, Bundles, Giveaways, Trading
+    externalDocs:
+      url: https://github.com/bartervg/barter.vg/wiki

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fed-treasury
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Fed Treasury
+      version: 1.0.0
+      description: U.S. Department of the Treasury Data
+    externalDocs:
+      url: https://fiscaldata.treasury.gov/api-documentation/

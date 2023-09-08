@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: google-cloud-natural
+  annotations:
+    system: text-analysis-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Google Cloud Natural
+      version: 1.0.0
+      description: Natural language understanding technology, including sentiment, entity and syntax analysis
+    externalDocs:
+      url: https://cloud.google.com/natural-language/docs/

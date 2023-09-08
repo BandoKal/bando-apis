@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: extendsclass-json-storage
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ExtendsClass JSON Storage
+      version: 1.0.0
+      description: A simple JSON store API
+    externalDocs:
+      url: https://extendsclass.com/json-storage.html

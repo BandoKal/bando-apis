@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: best-buy
+  annotations:
+    system: shopping-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Best Buy
+      version: 1.0.0
+      description: Products, Buying Options, Categories, Recommendations, Stores and Commerce
+    externalDocs:
+      url: https://bestbuyapis.github.io/api-documentation/#overview

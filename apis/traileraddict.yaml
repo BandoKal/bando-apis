@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: traileraddict
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: TrailerAddict
+      version: 1.0.0
+      description: Easily embed trailers from TrailerAddict
+    externalDocs:
+      url: https://www.traileraddict.com/trailerapi

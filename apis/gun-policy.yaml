@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gun-policy
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Gun Policy
+      version: 1.0.0
+      description: International firearm injury prevention and policy
+    externalDocs:
+      url: https://www.gunpolicy.org/api

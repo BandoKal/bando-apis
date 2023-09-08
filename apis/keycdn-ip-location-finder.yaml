@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: keycdn-ip-location-finder
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: keycdn IP Location Finder
+      version: 1.0.0
+      description: Get the IP geolocation data through the simple REST API. All the responses are JSON encoded
+    externalDocs:
+      url: https://tools.keycdn.com/geo

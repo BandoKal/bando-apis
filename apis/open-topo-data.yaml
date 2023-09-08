@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-topo-data
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Topo Data
+      version: 1.0.0
+      description: Elevation and ocean depth for a latitude and longitude
+    externalDocs:
+      url: https://www.opentopodata.org

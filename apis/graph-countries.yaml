@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: graph-countries
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Graph Countries
+      version: 1.0.0
+      description: Country-related data like currencies, languages, flags, regions+subregions and bordering countries
+    externalDocs:
+      url: https://github.com/lennertVanSever/graphcountries

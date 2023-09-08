@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: styvio
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Styvio
+      version: 1.0.0
+      description: Realtime and historical stock data and current stock sentiment
+    externalDocs:
+      url: https://www.Styvio.com

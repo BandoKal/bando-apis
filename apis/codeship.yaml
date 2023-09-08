@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: codeship
+  annotations:
+    system: continuous-integration-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Codeship
+      version: 1.0.0
+      description: Codeship is a Continuous Integration Platform in the cloud
+    externalDocs:
+      url: https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/

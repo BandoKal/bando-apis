@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: urban-observatory
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Urban Observatory
+      version: 1.0.0
+      description: The largest set of publicly available real time urban data in the UK
+    externalDocs:
+      url: https://urbanobservatory.ac.uk

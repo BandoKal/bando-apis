@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bigdatacloud
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: BigDataCloud
+      version: 1.0.0
+      description: Provides fast and accurate IP geolocation APIs along with security checks and confidence area
+    externalDocs:
+      url: https://www.bigdatacloud.com/ip-geolocation-apis

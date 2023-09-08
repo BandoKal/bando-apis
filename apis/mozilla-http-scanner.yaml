@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mozilla-http-scanner
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Mozilla http scanner
+      version: 1.0.0
+      description: Mozilla observatory http scanner
+    externalDocs:
+      url: https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md

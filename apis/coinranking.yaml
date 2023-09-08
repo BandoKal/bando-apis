@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: coinranking
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CoinRanking
+      version: 1.0.0
+      description: Live Cryptocurrency data
+    externalDocs:
+      url: https://developers.coinranking.com/api/documentation

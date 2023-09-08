@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geodatasource
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GeoDataSource
+      version: 1.0.0
+      description: Geocoding of city name by using latitude and longitude coordinates
+    externalDocs:
+      url: https://www.geodatasource.com/web-service

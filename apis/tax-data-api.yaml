@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tax-data-api
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Tax Data API
+      version: 1.0.0
+      description: Instant VAT number and tax validation across the globe
+    externalDocs:
+      url: https://apilayer.com/marketplace/tax_data-api

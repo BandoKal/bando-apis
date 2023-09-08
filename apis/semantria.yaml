@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: semantria
+  annotations:
+    system: text-analysis-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Semantria
+      version: 1.0.0
+      description: Text Analytics with sentiment analysis, categorization & named entity extraction
+    externalDocs:
+      url: https://semantria.readme.io/docs

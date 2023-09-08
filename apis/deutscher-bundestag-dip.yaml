@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: deutscher-bundestag-dip
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Deutscher Bundestag DIP
+      version: 1.0.0
+      description: This API provides read access to DIP entities (e.g. activities, persons, printed material)
+    externalDocs:
+      url: https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf

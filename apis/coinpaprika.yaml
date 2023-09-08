@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: coinpaprika
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Coinpaprika
+      version: 1.0.0
+      description: Cryptocurrencies prices, volume and more
+    externalDocs:
+      url: https://api.coinpaprika.com

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: webdam
+  annotations:
+    system: photography-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Webdam
+      version: 1.0.0
+      description: Images
+    externalDocs:
+      url: https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API

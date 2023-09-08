@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: abstract-phone-validation
+  annotations:
+    system: phone-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Abstract Phone Validation
+      version: 1.0.0
+      description: Validate phone numbers globally
+    externalDocs:
+      url: https://www.abstractapi.com/phone-validation-api

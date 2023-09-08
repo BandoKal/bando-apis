@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: octopart
+  annotations:
+    system: shopping-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Octopart
+      version: 1.0.0
+      description: Electronic part data for manufacturing, design, and sourcing
+    externalDocs:
+      url: https://octopart.com/api/v4/reference

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mattermost
+  annotations:
+    system: documents-&-productivity-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Mattermost
+      version: 1.0.0
+      description: An open source platform for developer collaboration
+    externalDocs:
+      url: https://api.mattermost.com/

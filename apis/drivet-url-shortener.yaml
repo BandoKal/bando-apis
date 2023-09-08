@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: drivet-url-shortener
+  annotations:
+    system: url-shorteners-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Drivet URL Shortener
+      version: 1.0.0
+      description: Shorten a long URL easily and fast
+    externalDocs:
+      url: https://wiki.drivet.xyz/en/url-shortener/add-links

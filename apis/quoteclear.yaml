@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: quoteclear
+  annotations:
+    system: personality-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: quoteclear
+      version: 1.0.0
+      description: Ever-growing list of James Clear quotes from the 3-2-1 Newsletter
+    externalDocs:
+      url: https://quoteclear.web.app/

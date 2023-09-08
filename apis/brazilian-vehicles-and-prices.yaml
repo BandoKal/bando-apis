@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: brazilian-vehicles-and-prices
+  annotations:
+    system: vehicle-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Brazilian Vehicles and Prices
+      version: 1.0.0
+      description: Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe
+    externalDocs:
+      url: https://deividfortuna.github.io/fipe/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: 1inch
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: 1inch
+      version: 1.0.0
+      description: API for querying decentralize exchange
+    externalDocs:
+      url: https://1inch.io/api/

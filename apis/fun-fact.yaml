@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fun-fact
+  annotations:
+    system: entertainment-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Fun Fact
+      version: 1.0.0
+      description: A simple HTTPS api that can randomly select and return a fact from the FFA database
+    externalDocs:
+      url: https://api.aakhilv.me

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: watson-natural-language-understanding
+  annotations:
+    system: text-analysis-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Watson Natural Language Understanding
+      version: 1.0.0
+      description: Natural language processing for advanced text analysis
+    externalDocs:
+      url: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding

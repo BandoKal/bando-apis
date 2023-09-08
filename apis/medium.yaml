@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: medium
+  annotations:
+    system: personality-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Medium
+      version: 1.0.0
+      description: Community of readers and writers offering unique perspectives on ideas
+    externalDocs:
+      url: https://github.com/Medium/medium-api-docs

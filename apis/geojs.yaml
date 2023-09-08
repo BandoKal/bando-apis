@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geojs
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GeoJS
+      version: 1.0.0
+      description: IP geolocation with ChatOps integration
+    externalDocs:
+      url: https://www.geojs.io/

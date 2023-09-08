@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: deepcode
+  annotations:
+    system: machine-learning-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Deepcode
+      version: 1.0.0
+      description: AI for code review
+    externalDocs:
+      url: https://www.deepcode.ai

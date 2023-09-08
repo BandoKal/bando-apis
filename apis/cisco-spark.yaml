@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cisco-spark
+  annotations:
+    system: social-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cisco Spark
+      version: 1.0.0
+      description: Team Collaboration Software
+    externalDocs:
+      url: https://developer.ciscospark.com

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: iseven-(humor)
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: isEven (humor)
+      version: 1.0.0
+      description: Check if a number is even
+    externalDocs:
+      url: https://isevenapi.xyz/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apilayer-ipstack
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: apilayer ipstack
+      version: 1.0.0
+      description: Locate and identify website visitors by IP address
+    externalDocs:
+      url: https://ipstack.com/

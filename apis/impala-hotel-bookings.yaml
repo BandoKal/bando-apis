@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: impala-hotel-bookings
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Impala Hotel Bookings
+      version: 1.0.0
+      description: Hotel content, rates and room bookings
+    externalDocs:
+      url: https://docs.impala.travel/docs/booking-api/

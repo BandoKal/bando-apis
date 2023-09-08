@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cooper-hewitt
+  annotations:
+    system: art-&-design-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cooper Hewitt
+      version: 1.0.0
+      description: Smithsonian Design Museum
+    externalDocs:
+      url: https://collection.cooperhewitt.org/api

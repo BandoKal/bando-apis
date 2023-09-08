@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-ip
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: MY IP
+      version: 1.0.0
+      description: Get IP address information
+    externalDocs:
+      url: https://www.myip.com/api-docs/

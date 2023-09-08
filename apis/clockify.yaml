@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: clockify
+  annotations:
+    system: documents-&-productivity-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Clockify
+      version: 1.0.0
+      description: Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems
+    externalDocs:
+      url: https://clockify.me/developers-api 

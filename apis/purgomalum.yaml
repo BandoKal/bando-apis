@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: purgomalum
+  annotations:
+    system: data-validation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: PurgoMalum
+      version: 1.0.0
+      description: Content validator against profanity & obscenity
+    externalDocs:
+      url: http://www.purgomalum.com

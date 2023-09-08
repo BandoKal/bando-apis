@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: valr
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: VALR
+      version: 1.0.0
+      description: Cryptocurrency Exchange based in South Africa
+    externalDocs:
+      url: https://docs.valr.com/

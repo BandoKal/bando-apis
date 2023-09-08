@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: censys
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Censys
+      version: 1.0.0
+      description: Search engine for Internet connected host and devices
+    externalDocs:
+      url: https://search.censys.io/api

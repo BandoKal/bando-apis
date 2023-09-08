@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: imagga
+  annotations:
+    system: machine-learning-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Imagga
+      version: 1.0.0
+      description: Image Recognition Solutions like Tagging, Visual Search, NSFW moderation
+    externalDocs:
+      url: https://imagga.com/

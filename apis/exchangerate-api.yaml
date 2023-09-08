@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: exchangerate-api
+  annotations:
+    system: currency-exchange-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ExchangeRate-API
+      version: 1.0.0
+      description: Free currency conversion
+    externalDocs:
+      url: https://www.exchangerate-api.com

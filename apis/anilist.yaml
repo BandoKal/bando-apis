@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: anilist
+  annotations:
+    system: anime-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: AniList
+      version: 1.0.0
+      description: Anime discovery & tracking
+    externalDocs:
+      url: https://github.com/AniList/ApiV2-GraphQL-Docs

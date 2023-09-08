@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: aletheia
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Aletheia
+      version: 1.0.0
+      description: Insider trading data, earnings call analysis, financial statements, and more
+    externalDocs:
+      url: https://aletheiaapi.com/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: french-address-search
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: French Address Search
+      version: 1.0.0
+      description: Address search via the French Government
+    externalDocs:
+      url: https://geo.api.gouv.fr/adresse

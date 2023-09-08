@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: nomics
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Nomics
+      version: 1.0.0
+      description: Historical and realtime cryptocurrency prices and market data
+    externalDocs:
+      url: https://nomics.com/docs/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cloverly
+  annotations:
+    system: environment-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cloverly
+      version: 1.0.0
+      description: API calculates the impact of common carbon-intensive activities in real time
+    externalDocs:
+      url: https://www.cloverly.com/carbon-offset-documentation

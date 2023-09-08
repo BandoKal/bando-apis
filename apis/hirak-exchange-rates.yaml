@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hirak-exchange-rates
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Hirak Exchange Rates
+      version: 1.0.0
+      description: Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits
+    externalDocs:
+      url: https://rates.hirak.site/

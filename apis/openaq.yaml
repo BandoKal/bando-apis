@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: openaq
+  annotations:
+    system: environment-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: OpenAQ
+      version: 1.0.0
+      description: Open air quality data
+    externalDocs:
+      url: https://docs.openaq.org/
