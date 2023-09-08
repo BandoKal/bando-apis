@@ -1,0 +1,45 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: bando-apis-1
+  description: A collection of all Public apis from https://github.com/public-apis/public-apis
+spec:
+  targets:
+    - ./apis/adoptapet.yaml
+    - ./apis/axolotl.yaml
+    - ./apis/cat-facts.yaml
+    - ./apis/cataas.yaml
+    - ./apis/cats.yaml
+    - ./apis/dog-facts.yaml
+    - ./apis/dog-facts.yaml
+    - ./apis/dogs.yaml
+    - ./apis/ebird.yaml
+    - ./apis/fishwatch.yaml
+    - ./apis/http-cat.yaml
+    - ./apis/http-dog.yaml
+    - ./apis/iucn.yaml
+    - ./apis/meowfacts.yaml
+    - ./apis/movebank.yaml
+    - ./apis/petfinder.yaml
+    - ./apis/placebear.yaml
+    - ./apis/placedog.yaml
+    - ./apis/placekitten.yaml
+    - ./apis/randomdog.yaml
+    - ./apis/randomduck.yaml
+    - ./apis/randomfox.yaml
+    - ./apis/rescuegroups.yaml
+    - ./apis/shibe.online.yaml
+    - ./apis/the-dog.yaml
+    - ./apis/xeno-canto.yaml
+    - ./apis/zoo-animals.yaml
+    - ./apis/aniapi.yaml
+    - ./apis/anidb.yaml
+    - ./apis/anilist.yaml
+    - ./apis/animechan.yaml
+    - ./apis/animefacts.yaml
+    - ./apis/animenewsnetwork.yaml
+    - ./apis/catboy.yaml
+    - ./apis/danbooru-anime.yaml
+    - ./apis/jikan.yaml
+    - ./apis/kitsu.yaml
+    - ./apis/mangadex.yaml
