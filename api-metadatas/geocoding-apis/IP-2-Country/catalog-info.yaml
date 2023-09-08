@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ip-2-country
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: IP 2 Country
+      version: 1.0.0
+      description: Map an IP to a country
+    externalDocs:
+      url: https://ip2country.info

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: crossref-metadata-search
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Crossref Metadata Search
+      version: 1.0.0
+      description: Books & Articles Metadata
+    externalDocs:
+      url: https://github.com/CrossRef/rest-api-doc

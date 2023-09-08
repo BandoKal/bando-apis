@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: materials-platform-for-data-science
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Materials Platform for Data Science
+      version: 1.0.0
+      description: Curated experimental data for materials science
+    externalDocs:
+      url: https://mpds.io

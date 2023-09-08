@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: prc-exam-schedule
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: PRC Exam Schedule
+      version: 1.0.0
+      description: Unofficial Philippine Professional Regulation Commission's examination schedule
+    externalDocs:
+      url: https://api.whenisthenextboardexam.com/docs/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: thenews
+  annotations:
+    system: news-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: TheNews
+      version: 1.0.0
+      description: Aggregated headlines, top story and live news JSON API
+    externalDocs:
+      url: https://www.thenewsapi.com/

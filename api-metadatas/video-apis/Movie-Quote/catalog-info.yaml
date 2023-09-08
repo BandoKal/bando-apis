@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: movie-quote
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Movie Quote
+      version: 1.0.0
+      description: Random Movie and Series Quotes
+    externalDocs:
+      url: https://github.com/F4R4N/movie-quote/

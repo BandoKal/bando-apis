@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: wikipedia
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Wikipedia
+      version: 1.0.0
+      description: Mediawiki Encyclopedia
+    externalDocs:
+      url: https://www.mediawiki.org/wiki/API:Main_page

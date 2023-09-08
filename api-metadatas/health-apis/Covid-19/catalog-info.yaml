@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: covid-19
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Covid-19
+      version: 1.0.0
+      description: Covid 19 cases, deaths and recovery per country
+    externalDocs:
+      url: https://github.com/M-Media-Group/Covid-19-API

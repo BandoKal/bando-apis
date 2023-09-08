@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bng2latlong
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: bng2latlong
+      version: 1.0.0
+      description: Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude
+    externalDocs:
+      url: https://www.getthedata.com/bng2latlong

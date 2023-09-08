@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: covid-19-jhu-csse
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Covid-19 JHU CSSE
+      version: 1.0.0
+      description: Open-source API for exploring Covid19 cases based on JHU CSSE
+    externalDocs:
+      url: https://nuttaphat.com/covid19-api/

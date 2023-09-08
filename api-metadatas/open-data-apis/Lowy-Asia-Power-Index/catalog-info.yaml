@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: lowy-asia-power-index
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Lowy Asia Power Index
+      version: 1.0.0
+      description: Get measure resources and influence to rank the relative power of states in Asia
+    externalDocs:
+      url: https://github.com/0x0is1/lowy-index-api-docs

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: icelandic-apis
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Icelandic APIs
+      version: 1.0.0
+      description: Open APIs that deliver services in or regarding Iceland
+    externalDocs:
+      url: http://docs.apis.is/

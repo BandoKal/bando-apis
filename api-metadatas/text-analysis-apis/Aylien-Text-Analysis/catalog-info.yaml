@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: aylien-text-analysis
+  annotations:
+    system: text-analysis-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Aylien Text Analysis
+      version: 1.0.0
+      description: A collection of information retrieval and natural language APIs
+    externalDocs:
+      url: https://docs.aylien.com/textapi/#getting-started

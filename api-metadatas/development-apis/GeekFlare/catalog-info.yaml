@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geekflare
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GeekFlare
+      version: 1.0.0
+      description: Provide numerous capabilities for important testing and monitoring methods for websites
+    externalDocs:
+      url: https://apidocs.geekflare.com/docs/geekflare-api

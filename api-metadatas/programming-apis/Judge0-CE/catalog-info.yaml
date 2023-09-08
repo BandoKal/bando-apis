@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: judge0-ce
+  annotations:
+    system: programming-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Judge0 CE
+      version: 1.0.0
+      description: Online code execution system
+    externalDocs:
+      url: https://ce.judge0.com/

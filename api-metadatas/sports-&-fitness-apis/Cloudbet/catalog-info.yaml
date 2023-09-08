@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cloudbet
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cloudbet
+      version: 1.0.0
+      description: Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically
+    externalDocs:
+      url: https://www.cloudbet.com/api/

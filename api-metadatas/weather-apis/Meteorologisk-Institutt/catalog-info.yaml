@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: meteorologisk-institutt
+  annotations:
+    system: weather-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Meteorologisk Institutt
+      version: 1.0.0
+      description: Weather and climate data
+    externalDocs:
+      url: https://api.met.no/weatherapi/documentation

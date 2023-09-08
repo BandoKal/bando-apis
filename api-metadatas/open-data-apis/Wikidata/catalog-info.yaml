@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: wikidata
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Wikidata
+      version: 1.0.0
+      description: Collaboratively edited knowledge base operated by the Wikimedia Foundation
+    externalDocs:
+      url: https://www.wikidata.org/w/api.php?action=help

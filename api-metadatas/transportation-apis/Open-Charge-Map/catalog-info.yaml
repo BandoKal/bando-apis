@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-charge-map
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Charge Map
+      version: 1.0.0
+      description: Global public registry of electric vehicle charging locations
+    externalDocs:
+      url: https://openchargemap.org/site/develop/api

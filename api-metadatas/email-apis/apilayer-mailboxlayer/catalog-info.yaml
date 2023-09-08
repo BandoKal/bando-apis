@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apilayer-mailboxlayer
+  annotations:
+    system: email-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: apilayer mailboxlayer
+      version: 1.0.0
+      description: Email address validation
+    externalDocs:
+      url: https://mailboxlayer.com

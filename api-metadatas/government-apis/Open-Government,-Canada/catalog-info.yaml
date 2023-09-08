@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-government,-canada
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Government, Canada
+      version: 1.0.0
+      description: Canadian Government Open Data
+    externalDocs:
+      url: http://open.canada.ca/en

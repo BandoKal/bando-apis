@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: positionstack
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: positionstack
+      version: 1.0.0
+      description: Forward & Reverse Batch Geocoding REST API
+    externalDocs:
+      url: https://positionstack.com/

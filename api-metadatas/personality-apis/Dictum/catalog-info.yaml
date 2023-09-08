@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dictum
+  annotations:
+    system: personality-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Dictum
+      version: 1.0.0
+      description: API to get access to the collection of the most inspiring expressions of mankind
+    externalDocs:
+      url: https://github.com/fisenkodv/dictum

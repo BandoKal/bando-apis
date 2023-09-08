@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: abstract-ip-geolocation
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Abstract IP Geolocation
+      version: 1.0.0
+      description: Geolocate website visitors from their IPs
+    externalDocs:
+      url: https://www.abstractapi.com/ip-geolocation-api

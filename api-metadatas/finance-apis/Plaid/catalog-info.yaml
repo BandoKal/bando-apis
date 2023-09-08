@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: plaid
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Plaid
+      version: 1.0.0
+      description: Connect with user's bank accounts and access transaction data
+    externalDocs:
+      url: https://plaid.com/

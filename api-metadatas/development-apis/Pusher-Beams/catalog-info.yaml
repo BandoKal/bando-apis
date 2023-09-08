@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: pusher-beams
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Pusher Beams
+      version: 1.0.0
+      description: Push notifications for Android & iOS
+    externalDocs:
+      url: https://pusher.com/beams

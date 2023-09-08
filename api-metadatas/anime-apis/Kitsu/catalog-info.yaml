@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: kitsu
+  annotations:
+    system: anime-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Kitsu
+      version: 1.0.0
+      description: Anime discovery platform
+    externalDocs:
+      url: https://kitsu.docs.apiary.io/

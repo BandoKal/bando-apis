@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: greynoise
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GreyNoise
+      version: 1.0.0
+      description: Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data
+    externalDocs:
+      url: https://docs.greynoise.io/reference/get_v3-community-ip

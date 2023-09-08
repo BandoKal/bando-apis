@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tradier
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Tradier
+      version: 1.0.0
+      description: US equity/option market data (delayed, intraday, historical)
+    externalDocs:
+      url: https://developer.tradier.com

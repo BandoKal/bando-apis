@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cleanuri
+  annotations:
+    system: url-shorteners-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CleanURI
+      version: 1.0.0
+      description: URL shortener service
+    externalDocs:
+      url: https://cleanuri.com/docs

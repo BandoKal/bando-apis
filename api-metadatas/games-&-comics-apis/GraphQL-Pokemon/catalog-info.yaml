@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: graphql-pokemon
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GraphQL Pokemon
+      version: 1.0.0
+      description: GraphQL powered Pokemon API. Supports generations 1 through 8
+    externalDocs:
+      url: https://github.com/favware/graphql-pokemon

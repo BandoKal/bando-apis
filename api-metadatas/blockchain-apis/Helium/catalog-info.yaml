@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: helium
+  annotations:
+    system: blockchain-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Helium
+      version: 1.0.0
+      description: Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage
+    externalDocs:
+      url: https://docs.helium.com/api/blockchain/introduction/

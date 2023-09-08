@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: imgflip
+  annotations:
+    system: entertainment-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Imgflip
+      version: 1.0.0
+      description: Gets an array of popular memes
+    externalDocs:
+      url: https://imgflip.com/api

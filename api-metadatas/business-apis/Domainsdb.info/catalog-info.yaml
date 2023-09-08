@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: domainsdb.info
+  annotations:
+    system: business-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Domainsdb.info
+      version: 1.0.0
+      description: Registered Domain Names Search
+    externalDocs:
+      url: https://domainsdb.info/

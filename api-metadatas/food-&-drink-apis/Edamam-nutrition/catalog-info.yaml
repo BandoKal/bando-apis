@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: edamam-nutrition
+  annotations:
+    system: food-&-drink-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Edamam nutrition
+      version: 1.0.0
+      description: Nutrition Analysis
+    externalDocs:
+      url: https://developer.edamam.com/edamam-docs-nutrition-api

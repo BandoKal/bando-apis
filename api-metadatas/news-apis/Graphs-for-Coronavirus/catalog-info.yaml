@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: graphs-for-coronavirus
+  annotations:
+    system: news-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Graphs for Coronavirus
+      version: 1.0.0
+      description: Each Country separately and Worldwide Graphs for Coronavirus. Daily updates
+    externalDocs:
+      url: https://corona.dnsforfamily.com/api.txt

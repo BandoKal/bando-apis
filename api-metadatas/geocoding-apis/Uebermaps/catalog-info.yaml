@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: uebermaps
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Uebermaps
+      version: 1.0.0
+      description: Discover and share maps with friends
+    externalDocs:
+      url: https://uebermaps.com/api/v2

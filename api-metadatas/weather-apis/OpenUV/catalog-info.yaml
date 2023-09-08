@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: openuv
+  annotations:
+    system: weather-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: OpenUV
+      version: 1.0.0
+      description: Real-time UV Index Forecast
+    externalDocs:
+      url: https://www.openuv.io

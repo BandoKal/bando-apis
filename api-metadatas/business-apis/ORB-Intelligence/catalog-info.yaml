@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: orb-intelligence
+  annotations:
+    system: business-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ORB Intelligence
+      version: 1.0.0
+      description: Company lookup
+    externalDocs:
+      url: https://api.orb-intelligence.com/docs/

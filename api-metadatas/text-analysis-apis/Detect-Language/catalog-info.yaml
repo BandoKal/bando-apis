@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: detect-language
+  annotations:
+    system: text-analysis-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Detect Language
+      version: 1.0.0
+      description: Detects text language
+    externalDocs:
+      url: https://detectlanguage.com/

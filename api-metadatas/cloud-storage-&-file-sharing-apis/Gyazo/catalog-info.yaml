@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gyazo
+  annotations:
+    system: cloud-storage-&-file-sharing-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Gyazo
+      version: 1.0.0
+      description: Save & Share screen captures instantly
+    externalDocs:
+      url: https://gyazo.com/api/docs

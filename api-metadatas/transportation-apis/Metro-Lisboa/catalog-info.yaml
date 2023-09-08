@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: metro-lisboa
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Metro Lisboa
+      version: 1.0.0
+      description: Delays in subway lines
+    externalDocs:
+      url: http://app.metrolisboa.pt/status/getLinhas.php

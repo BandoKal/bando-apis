@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: google-firebase
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Google Firebase
+      version: 1.0.0
+      description: Google's mobile application development platform that helps build, improve, and grow app
+    externalDocs:
+      url: https://firebase.google.com/docs

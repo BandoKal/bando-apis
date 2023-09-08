@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: box
+  annotations:
+    system: cloud-storage-&-file-sharing-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Box
+      version: 1.0.0
+      description: File Sharing and Storage
+    externalDocs:
+      url: https://developer.box.com/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tenders-in-hungary
+  annotations:
+    system: business-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Tenders in Hungary
+      version: 1.0.0
+      description: Get data for procurements in Hungary in JSON format
+    externalDocs:
+      url: https://tenders.guru/hu/api

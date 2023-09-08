@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: oyyi
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: oyyi
+      version: 1.0.0
+      description: API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation
+    externalDocs:
+      url: https://oyyi.xyz/docs/1.0

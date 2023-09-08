@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: city,-nantes-open-data
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: City, Nantes Open Data
+      version: 1.0.0
+      description: Nantes(FR) City Open Data
+    externalDocs:
+      url: https://data.nantesmetropole.fr/pages/home/

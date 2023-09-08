@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: libretranslate
+  annotations:
+    system: text-analysis-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: LibreTranslate
+      version: 1.0.0
+      description: Translation tool with 17 available languages
+    externalDocs:
+      url: https://libretranslate.com/docs

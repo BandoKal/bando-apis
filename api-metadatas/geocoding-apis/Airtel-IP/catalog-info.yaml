@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: airtel-ip
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Airtel IP
+      version: 1.0.0
+      description: IP Geolocation API. Collecting data from multiple sources
+    externalDocs:
+      url: https://sys.airtel.lv/ip2country/1.1.1.1/?full=true

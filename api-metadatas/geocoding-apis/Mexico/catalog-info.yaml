@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mexico
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Mexico
+      version: 1.0.0
+      description: Mexico RESTful zip codes API
+    externalDocs:
+      url: https://github.com/IcaliaLabs/sepomex

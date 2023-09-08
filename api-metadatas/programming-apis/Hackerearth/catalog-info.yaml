@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hackerearth
+  annotations:
+    system: programming-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Hackerearth
+      version: 1.0.0
+      description: For compiling and running code in several languages
+    externalDocs:
+      url: https://www.hackerearth.com/docs/wiki/developers/v4/

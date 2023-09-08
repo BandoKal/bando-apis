@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cloudmersive-document-and-data-conversion
+  annotations:
+    system: documents-&-productivity-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cloudmersive Document and Data Conversion
+      version: 1.0.0
+      description: HTML/URL to PDF/PNG, Office documents to PDF, image conversion
+    externalDocs:
+      url: https://cloudmersive.com/convert-api

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: art-institute-of-chicago
+  annotations:
+    system: art-&-design-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Art Institute of Chicago
+      version: 1.0.0
+      description: Art
+    externalDocs:
+      url: https://api.artic.edu/docs/

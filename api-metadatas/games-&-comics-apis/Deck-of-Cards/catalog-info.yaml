@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: deck-of-cards
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Deck of Cards
+      version: 1.0.0
+      description: Deck of Cards
+    externalDocs:
+      url: http://deckofcardsapi.com/

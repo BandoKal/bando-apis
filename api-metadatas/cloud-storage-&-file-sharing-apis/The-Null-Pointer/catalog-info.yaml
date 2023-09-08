@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: the-null-pointer
+  annotations:
+    system: cloud-storage-&-file-sharing-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: The Null Pointer
+      version: 1.0.0
+      description: No-bullshit file hosting and URL shortening service
+    externalDocs:
+      url: https://0x0.st

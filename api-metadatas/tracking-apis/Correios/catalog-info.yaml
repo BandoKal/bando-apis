@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: correios
+  annotations:
+    system: tracking-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Correios
+      version: 1.0.0
+      description: Integration to provide information and prepare shipments using Correio's services
+    externalDocs:
+      url: https://cws.correios.com.br/ajuda

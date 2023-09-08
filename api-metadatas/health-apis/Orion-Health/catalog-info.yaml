@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: orion-health
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Orion Health
+      version: 1.0.0
+      description: Medical platform which allows the development of applications for different healthcare scenarios
+    externalDocs:
+      url: https://developer.orionhealth.io/

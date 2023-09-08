@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cryptapi
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CryptAPI
+      version: 1.0.0
+      description: Cryptocurrency Payment Processor
+    externalDocs:
+      url: https://docs.cryptapi.io/

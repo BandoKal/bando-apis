@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: colormind
+  annotations:
+    system: art-&-design-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Colormind
+      version: 1.0.0
+      description: Color scheme generator
+    externalDocs:
+      url: http://colormind.io/api-access/

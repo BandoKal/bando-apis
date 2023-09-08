@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: meowfacts
+  annotations:
+    system: animals-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: MeowFacts
+      version: 1.0.0
+      description: Get random cat facts
+    externalDocs:
+      url: https://github.com/wh-iterabb-it/meowfacts

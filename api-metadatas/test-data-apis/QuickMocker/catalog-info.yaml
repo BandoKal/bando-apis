@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: quickmocker
+  annotations:
+    system: test-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: QuickMocker
+      version: 1.0.0
+      description: API mocking tool to generate contextual, fake or random data
+    externalDocs:
+      url: https://quickmocker.com

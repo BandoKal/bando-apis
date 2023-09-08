@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: unogs
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: uNoGS
+      version: 1.0.0
+      description: Unofficial Netflix Online Global Search, Search all netflix regions in one place
+    externalDocs:
+      url: https://rapidapi.com/unogs/api/unogsng

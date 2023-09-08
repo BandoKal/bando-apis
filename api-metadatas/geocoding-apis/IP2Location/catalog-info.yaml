@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ip2location
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: IP2Location
+      version: 1.0.0
+      description: IP geolocation web service to get more than 55 parameters
+    externalDocs:
+      url: https://www.ip2location.com/web-service/ip2location

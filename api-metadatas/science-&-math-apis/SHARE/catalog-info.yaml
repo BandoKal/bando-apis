@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: share
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: SHARE
+      version: 1.0.0
+      description: A free, open, dataset about research and scholarly activities
+    externalDocs:
+      url: https://share.osf.io/api/v2/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: when-is-next-mcu-film
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: When is next MCU film
+      version: 1.0.0
+      description: Upcoming MCU film information
+    externalDocs:
+      url: https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md

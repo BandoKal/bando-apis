@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gotiny
+  annotations:
+    system: url-shorteners-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GoTiny
+      version: 1.0.0
+      description: A lightweight URL shortener, focused on ease-of-use for the developer and end-user
+    externalDocs:
+      url: https://github.com/robvanbakel/gotiny-api

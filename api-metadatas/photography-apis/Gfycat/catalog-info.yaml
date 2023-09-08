@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gfycat
+  annotations:
+    system: photography-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Gfycat
+      version: 1.0.0
+      description: Jiffier GIFs
+    externalDocs:
+      url: https://developers.gfycat.com/api/

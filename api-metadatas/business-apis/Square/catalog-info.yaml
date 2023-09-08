@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: square
+  annotations:
+    system: business-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Square
+      version: 1.0.0
+      description: Easy way to take payments, manage refunds, and help customers checkout online
+    externalDocs:
+      url: https://developer.squareup.com/reference/square

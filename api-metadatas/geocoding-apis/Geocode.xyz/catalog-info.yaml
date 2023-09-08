@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geocode.xyz
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Geocode.xyz
+      version: 1.0.0
+      description: Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing
+    externalDocs:
+      url: https://geocode.xyz/api

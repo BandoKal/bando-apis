@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: rainviewer
+  annotations:
+    system: weather-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: RainViewer
+      version: 1.0.0
+      description: Radar data collected from different websites across the Internet
+    externalDocs:
+      url: https://www.rainviewer.com/api.html

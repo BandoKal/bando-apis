@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: oxford
+  annotations:
+    system: dictionaries-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Oxford
+      version: 1.0.0
+      description: Dictionary Data
+    externalDocs:
+      url: https://developer.oxforddictionaries.com/

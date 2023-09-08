@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: schiphol-airport
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Schiphol Airport
+      version: 1.0.0
+      description: Schiphol
+    externalDocs:
+      url: https://developer.schiphol.nl/

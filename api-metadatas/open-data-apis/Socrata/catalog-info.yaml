@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: socrata
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Socrata
+      version: 1.0.0
+      description: Access to Open Data from Governments, Non-profits and NGOs around the world
+    externalDocs:
+      url: https://dev.socrata.com/

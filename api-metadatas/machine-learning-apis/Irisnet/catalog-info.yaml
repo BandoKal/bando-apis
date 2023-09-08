@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: irisnet
+  annotations:
+    system: machine-learning-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Irisnet
+      version: 1.0.0
+      description: Realtime content moderation API that blocks or blurs unwanted images in real-time
+    externalDocs:
+      url: https://irisnet.de/api/

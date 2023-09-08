@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: kakao-maps
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Kakao Maps
+      version: 1.0.0
+      description: Kakao Maps provide multiple APIs for Korean maps
+    externalDocs:
+      url: https://apis.map.kakao.com

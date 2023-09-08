@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: genius
+  annotations:
+    system: music-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Genius
+      version: 1.0.0
+      description: Crowdsourced lyrics and music knowledge
+    externalDocs:
+      url: https://docs.genius.com/

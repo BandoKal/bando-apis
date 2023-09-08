@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: time-door
+  annotations:
+    system: machine-learning-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Time Door
+      version: 1.0.0
+      description: A time series analysis API
+    externalDocs:
+      url: https://timedoor.io

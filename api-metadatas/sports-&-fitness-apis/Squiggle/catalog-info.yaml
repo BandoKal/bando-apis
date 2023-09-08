@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: squiggle
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Squiggle
+      version: 1.0.0
+      description: Fixtures, results and predictions for Australian Football League matches
+    externalDocs:
+      url: https://api.squiggle.com.au

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: rss-feed-to-json
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: RSS feed to JSON
+      version: 1.0.0
+      description: Returns RSS feed in JSON format using feed URL
+    externalDocs:
+      url: https://rss-to-json-serverless-api.vercel.app

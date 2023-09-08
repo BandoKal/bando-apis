@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: qrcode-monkey
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Qrcode Monkey
+      version: 1.0.0
+      description: Integrate custom and unique looking QR codes into your system or workflow
+    externalDocs:
+      url: https://www.qrcode-monkey.com/qr-code-api-with-logo/

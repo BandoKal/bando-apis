@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: brazil-receita-ws
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Brazil Receita WS
+      version: 1.0.0
+      description: Consult companies by CNPJ for Brazilian companies
+    externalDocs:
+      url: https://www.receitaws.com.br/

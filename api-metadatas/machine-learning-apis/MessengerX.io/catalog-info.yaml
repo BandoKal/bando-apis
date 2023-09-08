@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: messengerx.io
+  annotations:
+    system: machine-learning-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: MessengerX.io
+      version: 1.0.0
+      description: A FREE API for developers to build and monetize personalized ML based chat apps
+    externalDocs:
+      url: https://messengerx.rtfd.io

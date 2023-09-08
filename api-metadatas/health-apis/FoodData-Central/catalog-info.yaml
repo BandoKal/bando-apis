@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fooddata-central
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: FoodData Central
+      version: 1.0.0
+      description: National Nutrient Database for Standard Reference
+    externalDocs:
+      url: https://fdc.nal.usda.gov/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: disify
+  annotations:
+    system: email-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Disify
+      version: 1.0.0
+      description: Validate and detect disposable and temporary email addresses
+    externalDocs:
+      url: https://www.disify.com/

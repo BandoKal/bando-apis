@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: reqres
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ReqRes
+      version: 1.0.0
+      description: A hosted REST-API ready to respond to your AJAX requests
+    externalDocs:
+      url: https://reqres.in/ 

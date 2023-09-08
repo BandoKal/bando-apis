@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: covid-19-philippines
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Covid-19 Philippines
+      version: 1.0.0
+      description: Unofficial Covid-19 Web API for Philippines from data collected by DOH
+    externalDocs:
+      url: https://github.com/Simperfy/Covid-19-API-Philippines-DOH

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: covid-id
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: COVID-ID
+      version: 1.0.0
+      description: Indonesian government Covid data per province
+    externalDocs:
+      url: https://data.covid19.go.id/public/api/prov.json

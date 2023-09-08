@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: punkapi
+  annotations:
+    system: food-&-drink-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: PunkAPI
+      version: 1.0.0
+      description: Brewdog Beer Recipes
+    externalDocs:
+      url: https://punkapi.com/

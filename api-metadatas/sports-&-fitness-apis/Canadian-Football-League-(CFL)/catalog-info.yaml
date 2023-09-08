@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: canadian-football-league-(cfl)
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Canadian Football League (CFL)
+      version: 1.0.0
+      description: Official JSON API providing real-time league, team and player statistics about the CFL
+    externalDocs:
+      url: http://api.cfl.ca/

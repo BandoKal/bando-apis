@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: arxiv
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: arXiv
+      version: 1.0.0
+      description: Curated research-sharing platform: physics, mathematics, quantitative finance, and economics
+    externalDocs:
+      url: https://arxiv.org/help/api/user-manual

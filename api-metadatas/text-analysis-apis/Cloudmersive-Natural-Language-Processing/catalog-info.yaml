@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cloudmersive-natural-language-processing
+  annotations:
+    system: text-analysis-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cloudmersive Natural Language Processing
+      version: 1.0.0
+      description: Natural language processing and text analysis
+    externalDocs:
+      url: https://www.cloudmersive.com/nlp-api

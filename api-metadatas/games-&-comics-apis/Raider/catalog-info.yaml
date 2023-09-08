@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: raider
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Raider
+      version: 1.0.0
+      description: Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft
+    externalDocs:
+      url: https://raider.io/api

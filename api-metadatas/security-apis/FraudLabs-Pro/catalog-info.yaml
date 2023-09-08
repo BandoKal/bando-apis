@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fraudlabs-pro
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: FraudLabs Pro
+      version: 1.0.0
+      description: Screen order information using AI to detect frauds
+    externalDocs:
+      url: https://www.fraudlabspro.com/developer/api/screen-order

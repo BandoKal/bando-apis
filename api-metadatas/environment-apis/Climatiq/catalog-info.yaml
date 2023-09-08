@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: climatiq
+  annotations:
+    system: environment-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Climatiq
+      version: 1.0.0
+      description: Calculate the environmental footprint created by a broad range of emission-generating activities
+    externalDocs:
+      url: https://docs.climatiq.io

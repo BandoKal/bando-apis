@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dailymotion
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Dailymotion
+      version: 1.0.0
+      description: Dailymotion Developer API
+    externalDocs:
+      url: https://developer.dailymotion.com/

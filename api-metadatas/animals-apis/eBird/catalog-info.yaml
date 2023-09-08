@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ebird
+  annotations:
+    system: animals-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: eBird
+      version: 1.0.0
+      description: Retrieve recent or notable birding observations within a region
+    externalDocs:
+      url: https://documenter.getpostman.com/view/664302/S1ENwy59

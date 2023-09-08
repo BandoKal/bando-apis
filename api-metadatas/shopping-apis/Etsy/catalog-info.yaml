@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: etsy
+  annotations:
+    system: shopping-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Etsy
+      version: 1.0.0
+      description: Manage shop and interact with listings
+    externalDocs:
+      url: https://www.etsy.com/developers/documentation/getting_started/api_basics

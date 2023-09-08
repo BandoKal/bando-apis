@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: songlink-/-odesli
+  annotations:
+    system: music-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Songlink / Odesli
+      version: 1.0.0
+      description: Get all the services on which a song is available
+    externalDocs:
+      url: https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741

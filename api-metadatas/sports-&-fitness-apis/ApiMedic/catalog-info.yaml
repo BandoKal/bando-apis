@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apimedic
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ApiMedic
+      version: 1.0.0
+      description: ApiMedic offers a medical symptom checker API primarily for patients
+    externalDocs:
+      url: https://apimedic.com/

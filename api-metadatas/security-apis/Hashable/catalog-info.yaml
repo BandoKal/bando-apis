@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hashable
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Hashable
+      version: 1.0.0
+      description: A REST API to access high level cryptographic functions and methods
+    externalDocs:
+      url: https://hashable.space/pages/api/

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ibge
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: IBGE
+      version: 1.0.0
+      description: Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)
+    externalDocs:
+      url: https://servicodados.ibge.gov.br/api/docs/

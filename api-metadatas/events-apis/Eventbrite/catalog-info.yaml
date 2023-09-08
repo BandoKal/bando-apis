@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: eventbrite
+  annotations:
+    system: events-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Eventbrite
+      version: 1.0.0
+      description: Find events
+    externalDocs:
+      url: https://www.eventbrite.com/platform/api/

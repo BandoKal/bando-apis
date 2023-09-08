@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: yahoo-finance
+  annotations:
+    system: finance-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Yahoo Finance
+      version: 1.0.0
+      description: Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange
+    externalDocs:
+      url: https://www.yahoofinanceapi.com/

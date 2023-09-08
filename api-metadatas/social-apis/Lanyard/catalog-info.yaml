@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: lanyard
+  annotations:
+    system: social-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Lanyard
+      version: 1.0.0
+      description: Retrieve your presence on Discord through an HTTP REST API or WebSocket
+    externalDocs:
+      url: https://github.com/Phineas/lanyard

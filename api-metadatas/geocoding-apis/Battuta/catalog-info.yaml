@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: battuta
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Battuta
+      version: 1.0.0
+      description: A (country/region/city) in-cascade location API
+    externalDocs:
+      url: http://battuta.medunes.net

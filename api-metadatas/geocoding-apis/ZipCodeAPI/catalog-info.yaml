@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: zipcodeapi
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ZipCodeAPI
+      version: 1.0.0
+      description: US zip code distance, radius and location API
+    externalDocs:
+      url: https://www.zipcodeapi.com

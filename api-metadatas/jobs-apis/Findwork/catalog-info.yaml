@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: findwork
+  annotations:
+    system: jobs-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Findwork
+      version: 1.0.0
+      description: Job board
+    externalDocs:
+      url: https://findwork.dev/developers/

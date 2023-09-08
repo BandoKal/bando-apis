@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: coinstats
+  annotations:
+    system: cryptocurrency-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CoinStats
+      version: 1.0.0
+      description: Crypto Tracker
+    externalDocs:
+      url: https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest

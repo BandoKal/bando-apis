@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: nasa-ads
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: NASA ADS
+      version: 1.0.0
+      description: NASA Astrophysics Data System
+    externalDocs:
+      url: https://ui.adsabs.harvard.edu/help/api/api-docs.html

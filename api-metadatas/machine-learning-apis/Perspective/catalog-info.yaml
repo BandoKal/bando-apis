@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: perspective
+  annotations:
+    system: machine-learning-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Perspective
+      version: 1.0.0
+      description: NLP API to return probability that if text is toxic, obscene, insulting or threatening
+    externalDocs:
+      url: https://perspectiveapi.com

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: refuge-restrooms
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: REFUGE Restrooms
+      version: 1.0.0
+      description: Provides safe restroom access for transgender, intersex and gender nonconforming individuals
+    externalDocs:
+      url: https://www.refugerestrooms.org/api/docs/#!/restrooms

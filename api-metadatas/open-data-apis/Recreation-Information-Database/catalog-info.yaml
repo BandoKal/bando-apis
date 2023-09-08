@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: recreation-information-database
+  annotations:
+    system: open-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Recreation Information Database
+      version: 1.0.0
+      description: Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)
+    externalDocs:
+      url: https://ridb.recreation.gov/

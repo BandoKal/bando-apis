@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: yes-no
+  annotations:
+    system: test-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Yes No
+      version: 1.0.0
+      description: Generate yes or no randomly
+    externalDocs:
+      url: https://yesno.wtf/api

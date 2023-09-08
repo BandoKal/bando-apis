@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: craftmypdf
+  annotations:
+    system: documents-&-productivity-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CraftMyPDF
+      version: 1.0.0
+      description: Generate PDF documents from templates with a drop-and-drop editor and a simple API
+    externalDocs:
+      url: https://craftmypdf.com

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: quran-api
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Quran-api
+      version: 1.0.0
+      description: Free Quran API Service with 90+ different languages and 400+ translations
+    externalDocs:
+      url: https://github.com/fawazahmed0/quran-api#readme

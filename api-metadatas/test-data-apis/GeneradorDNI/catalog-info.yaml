@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: generadordni
+  annotations:
+    system: test-data-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: GeneradorDNI
+      version: 1.0.0
+      description: Data generator API. Profiles, vehicles, banks and cards, etc
+    externalDocs:
+      url: https://api.generadordni.es

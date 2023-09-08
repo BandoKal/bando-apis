@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cdnjs
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CDNJS
+      version: 1.0.0
+      description: Library info on CDNJS
+    externalDocs:
+      url: https://api.cdnjs.com/libraries/jquery

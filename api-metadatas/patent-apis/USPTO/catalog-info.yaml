@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: uspto
+  annotations:
+    system: patent-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: USPTO
+      version: 1.0.0
+      description: USA patent api services
+    externalDocs:
+      url: https://www.uspto.gov/learning-and-resources/open-data-and-mobility

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: application-environment-verification
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Application Environment Verification
+      version: 1.0.0
+      description: Android library and API to verify the safety of user devices, detect rooted devices and other risks
+    externalDocs:
+      url: https://github.com/fingerprintjs/aev

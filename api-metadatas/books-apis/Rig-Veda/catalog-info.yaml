@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: rig-veda
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Rig Veda
+      version: 1.0.0
+      description: Gods and poets, their categories, and the verse meters, with the mandal and sukta number
+    externalDocs:
+      url: https://aninditabasu.github.io/indica/html/rv.html

@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gutendex
+  annotations:
+    system: books-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Gutendex
+      version: 1.0.0
+      description: Web-API for fetching data from Project Gutenberg Books Library
+    externalDocs:
+      url: https://gutendex.com/

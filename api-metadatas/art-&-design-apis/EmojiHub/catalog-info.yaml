@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: emojihub
+  annotations:
+    system: art-&-design-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: EmojiHub
+      version: 1.0.0
+      description: Get emojis by categories and groups
+    externalDocs:
+      url: https://github.com/cheatsnake/emojihub
