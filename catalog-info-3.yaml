@@ -11,7 +11,6 @@ spec:
     - ./apis/cataas.yaml
     - ./apis/cats.yaml
     - ./apis/dog-facts.yaml
-    - ./apis/dog-facts.yaml
     - ./apis/dogs.yaml
     - ./apis/ebird.yaml
     - ./apis/fishwatch.yaml
