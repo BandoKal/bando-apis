@@ -9,6 +9,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  description: Resource to help get pets adopted
   definition: |
     openapi: 3.0.0
     info:
