@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: filterlists
+  description: Lists of filters for adblockers and firewalls
   annotations:
     system: security-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: security-apis
   definition: |
     openapi: 3.0.0
     info:

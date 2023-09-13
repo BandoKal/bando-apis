@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: trove
+  description: Search through the National Library of Australia collection of 1000s of digitised newspapers
   annotations:
     system: news-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: news-apis
   definition: |
     openapi: 3.0.0
     info:

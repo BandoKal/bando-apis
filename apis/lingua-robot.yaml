@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: lingua-robot
+  description: Word definitions, pronunciations, synonyms, antonyms and others
   annotations:
     system: dictionaries-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: dictionaries-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: hong-kong-geodata-store
+  description: API for accessing geo-data of Hong Kong
   annotations:
     system: geocoding-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: geocoding-apis
   definition: |
     openapi: 3.0.0
     info:

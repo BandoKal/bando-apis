@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: pm2.5-open-data-portal
+  description: Open low-cost PM2.5 sensor data
   annotations:
     system: environment-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: environment-apis
   definition: |
     openapi: 3.0.0
     info:

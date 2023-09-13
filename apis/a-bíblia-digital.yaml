@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: a-bíblia-digital
+  description: Do not worry about managing the multiple versions of the Bible
   annotations:
     system: books-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: books-apis
   definition: |
     openapi: 3.0.0
     info:

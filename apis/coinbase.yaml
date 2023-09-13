@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: coinbase
+  description: Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices
   annotations:
     system: cryptocurrency-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: cryptocurrency-apis
   definition: |
     openapi: 3.0.0
     info:

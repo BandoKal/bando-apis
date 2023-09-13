@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: apis.guru
+  description: Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs
   annotations:
     system: development-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: development-apis
   definition: |
     openapi: 3.0.0
     info:

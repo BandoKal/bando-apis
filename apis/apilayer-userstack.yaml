@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: apilayer-userstack
+  description: Secure User-Agent String Lookup JSON API
   annotations:
     system: development-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: development-apis
   definition: |
     openapi: 3.0.0
     info:

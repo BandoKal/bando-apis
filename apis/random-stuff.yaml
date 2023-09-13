@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: random-stuff
+  description: Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed
   annotations:
     system: development-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: development-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: shopee
+  description: Shopee's official API for integration of various services from Shopee
   annotations:
     system: shopping-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: shopping-apis
   definition: |
     openapi: 3.0.0
     info:

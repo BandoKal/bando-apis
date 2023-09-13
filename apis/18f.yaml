@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: 18f
+  description: Unofficial US Federal Government API Development
   annotations:
     system: open-data-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: open-data-apis
   definition: |
     openapi: 3.0.0
     info:

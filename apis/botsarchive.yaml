@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: botsarchive
+  description: JSON formatted details about Telegram Bots available in database
   annotations:
     system: open-data-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: open-data-apis
   definition: |
     openapi: 3.0.0
     info:

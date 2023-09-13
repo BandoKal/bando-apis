@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: image-charts
+  description: Generate charts, QR codes and graph images
   annotations:
     system: development-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: development-apis
   definition: |
     openapi: 3.0.0
     info:

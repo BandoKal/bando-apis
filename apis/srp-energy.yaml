@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: srp-energy
+  description: Hourly usage energy report for Srp customers
   annotations:
     system: environment-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: environment-apis
   definition: |
     openapi: 3.0.0
     info:

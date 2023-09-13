@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: scanii
+  description: Simple REST API that can scan submitted documents/files for the presence of threats
   annotations:
     system: anti-malware-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: anti-malware-apis
   definition: |
     openapi: 3.0.0
     info:

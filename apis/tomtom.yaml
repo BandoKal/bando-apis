@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: tomtom
+  description: Maps, Directions, Places and Traffic APIs
   annotations:
     system: geocoding-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: geocoding-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: newsdata
+  description: News data API for live-breaking news and headlines from reputed  news sources
   annotations:
     system: news-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: news-apis
   definition: |
     openapi: 3.0.0
     info:

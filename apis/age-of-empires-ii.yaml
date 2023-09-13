@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: age-of-empires-ii
+  description: Get information about Age of Empires II resources
   annotations:
     system: games-&-comics-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: games-&-comics-apis
   definition: |
     openapi: 3.0.0
     info:

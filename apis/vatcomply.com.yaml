@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: vatcomply.com
+  description: Exchange rates, geolocation and VAT number validation
   annotations:
     system: currency-exchange-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: currency-exchange-apis
   definition: |
     openapi: 3.0.0
     info:

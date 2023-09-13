@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: clearbit-logo
+  description: Search for company logos and embed them in your projects
   annotations:
     system: business-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: business-apis
   definition: |
     openapi: 3.0.0
     info:

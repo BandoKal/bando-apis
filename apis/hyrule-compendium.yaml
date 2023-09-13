@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: hyrule-compendium
+  description: Data on all interactive items from The Legend of Zelda: BOTW
   annotations:
     system: games-&-comics-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: games-&-comics-apis
   definition: |
     openapi: 3.0.0
     info:

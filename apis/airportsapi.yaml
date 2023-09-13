@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: airportsapi
+  description: Get name and website-URL for airports by ICAO code
   annotations:
     system: transportation-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: transportation-apis
   definition: |
     openapi: 3.0.0
     info:

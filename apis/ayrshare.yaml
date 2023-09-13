@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: ayrshare
+  description: Social media APIs to post, get analytics, and manage multiple users social media accounts
   annotations:
     system: social-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: social-apis
   definition: |
     openapi: 3.0.0
     info:

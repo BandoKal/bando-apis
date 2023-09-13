@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: waifu.im
+  description: Get waifu pictures from an archive of over 4000 images and multiple tags
   annotations:
     system: anime-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: anime-apis
   definition: |
     openapi: 3.0.0
     info:

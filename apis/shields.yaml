@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: shields
+  description: Concise, consistent, and legible badges in SVG and raster format
   annotations:
     system: open-source-projects-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: open-source-projects-apis
   definition: |
     openapi: 3.0.0
     info:

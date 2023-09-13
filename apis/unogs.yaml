@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: unogs
+  description: Unofficial Netflix Online Global Search, Search all netflix regions in one place
   annotations:
     system: video-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: video-apis
   definition: |
     openapi: 3.0.0
     info:

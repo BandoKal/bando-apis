@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: covid-tracking-project
+  description: Covid-19  data for the US
   annotations:
     system: health-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: health-apis
   definition: |
     openapi: 3.0.0
     info:

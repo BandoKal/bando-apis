@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: jokes-one
+  description: Joke of the day and large category of jokes accessible via REST API
   annotations:
     system: games-&-comics-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: games-&-comics-apis
   definition: |
     openapi: 3.0.0
     info:

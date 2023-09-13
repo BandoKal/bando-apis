@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: twitter
+  description: Read and write Twitter data
   annotations:
     system: social-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: social-apis
   definition: |
     openapi: 3.0.0
     info:

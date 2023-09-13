@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: us-presidential-election-data-by-togatech
+  description: Basic candidate data and live electoral vote counts for top two parties in US presidential election
   annotations:
     system: government-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: government-apis
   definition: |
     openapi: 3.0.0
     info:

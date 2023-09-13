@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: quran-cloud
+  description: A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran
   annotations:
     system: books-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: books-apis
   definition: |
     openapi: 3.0.0
     info:

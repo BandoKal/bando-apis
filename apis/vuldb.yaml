@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: vuldb
+  description: VulDB API allows to initiate queries for one or more items along with transactional bots
   annotations:
     system: security-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: security-apis
   definition: |
     openapi: 3.0.0
     info:

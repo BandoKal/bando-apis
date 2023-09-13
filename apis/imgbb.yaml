@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: imgbb
+  description: Simple and quick private image sharing
   annotations:
     system: cloud-storage-&-file-sharing-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: cloud-storage-&-file-sharing-apis
   definition: |
     openapi: 3.0.0
     info:

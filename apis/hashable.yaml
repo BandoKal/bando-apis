@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: hashable
+  description: A REST API to access high level cryptographic functions and methods
   annotations:
     system: security-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: security-apis
   definition: |
     openapi: 3.0.0
     info:

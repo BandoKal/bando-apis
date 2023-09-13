@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: covid-19-government-response
+  description: Government measures tracker to fight against the Covid-19 pandemic
   annotations:
     system: health-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: health-apis
   definition: |
     openapi: 3.0.0
     info:

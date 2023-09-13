@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: code.gov
+  description: The primary platform for Open Source and code sharing for the U.S. Federal Government
   annotations:
     system: government-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: government-apis
   definition: |
     openapi: 3.0.0
     info:

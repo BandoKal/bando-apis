@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: transport-for-switzerland
+  description: Swiss public transport API
   annotations:
     system: transportation-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: transportation-apis
   definition: |
     openapi: 3.0.0
     info:

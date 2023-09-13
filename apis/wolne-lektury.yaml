@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: wolne-lektury
+  description: API for obtaining information about e-books available on the WolneLektury.pl website
   annotations:
     system: books-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: books-apis
   definition: |
     openapi: 3.0.0
     info:

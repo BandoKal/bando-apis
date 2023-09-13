@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: currents
+  description: Latest news published in various news sources, blogs and forums
   annotations:
     system: news-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: news-apis
   definition: |
     openapi: 3.0.0
     info:

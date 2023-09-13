@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: ducks-unlimited
+  description: API explorer that gives a query URL with a JSON response of locations and cities
   annotations:
     system: geocoding-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: geocoding-apis
   definition: |
     openapi: 3.0.0
     info:

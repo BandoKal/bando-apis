@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: the-dog
+  description: A public service all about Dogs, free to use when making your fancy new App, Website or Service
   annotations:
     system: animals-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: animals-apis
   definition: |
     openapi: 3.0.0
     info:

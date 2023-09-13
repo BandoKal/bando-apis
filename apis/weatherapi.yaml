@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: weatherapi
+  description: Weather API with other stuff like Astronomy and Geolocation API
   annotations:
     system: weather-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: weather-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: mapquest
+  description: To access tools and resources to map the world
   annotations:
     system: geocoding-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: geocoding-apis
   definition: |
     openapi: 3.0.0
     info:

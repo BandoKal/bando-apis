@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: words
+  description: Definitions and synonyms for more than 150,000 words
   annotations:
     system: dictionaries-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: dictionaries-apis
   definition: |
     openapi: 3.0.0
     info:

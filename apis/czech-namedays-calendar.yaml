@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: czech-namedays-calendar
+  description: Lookup for a name and returns nameday date
   annotations:
     system: calendar-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: calendar-apis
   definition: |
     openapi: 3.0.0
     info:

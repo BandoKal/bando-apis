@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: gofile
+  description: Unlimited size file uploads for free
   annotations:
     system: cloud-storage-&-file-sharing-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: cloud-storage-&-file-sharing-apis
   definition: |
     openapi: 3.0.0
     info:

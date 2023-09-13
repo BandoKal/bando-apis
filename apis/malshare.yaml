@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: malshare
+  description: Malware Archive / file sourcing
   annotations:
     system: anti-malware-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: anti-malware-apis
   definition: |
     openapi: 3.0.0
     info:

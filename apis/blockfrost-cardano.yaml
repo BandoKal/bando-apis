@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: blockfrost-cardano
+  description: Interaction with the Cardano mainnet and several testnets
   annotations:
     system: cryptocurrency-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: cryptocurrency-apis
   definition: |
     openapi: 3.0.0
     info:

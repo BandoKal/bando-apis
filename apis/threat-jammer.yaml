@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: threat-jammer
+  description: Risk scoring service from curated threat intelligence data
   annotations:
     system: security-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: security-apis
   definition: |
     openapi: 3.0.0
     info:

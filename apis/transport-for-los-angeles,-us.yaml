@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: transport-for-los-angeles,-us
+  description: Data about positions of Metro vehicles in real time and travel their routes
   annotations:
     system: transportation-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: transportation-apis
   definition: |
     openapi: 3.0.0
     info:

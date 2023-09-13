@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: instatus
+  description: Post to and update maintenance and incidents on your status page through an HTTP REST API
   annotations:
     system: business-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: business-apis
   definition: |
     openapi: 3.0.0
     info:

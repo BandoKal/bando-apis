@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: getotp
+  description: Implement OTP flow quickly
   annotations:
     system: authentication-&-authorization-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: authentication-&-authorization-apis
   definition: |
     openapi: 3.0.0
     info:

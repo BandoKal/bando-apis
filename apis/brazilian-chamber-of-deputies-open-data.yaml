@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: brazilian-chamber-of-deputies-open-data
+  description: Provides legislative information in Apis XML and JSON, as well as files in various formats
   annotations:
     system: government-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: government-apis
   definition: |
     openapi: 3.0.0
     info:

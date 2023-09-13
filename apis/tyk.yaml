@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: tyk
+  description: Api and service management platform
   annotations:
     system: development-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: development-apis
   definition: |
     openapi: 3.0.0
     info:

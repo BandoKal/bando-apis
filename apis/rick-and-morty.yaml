@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: rick-and-morty
+  description: All the Rick and Morty information, including images
   annotations:
     system: games-&-comics-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: games-&-comics-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: brazil-central-bank-open-data
+  description: Brazil Central Bank Open Data
   annotations:
     system: government-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: government-apis
   definition: |
     openapi: 3.0.0
     info:

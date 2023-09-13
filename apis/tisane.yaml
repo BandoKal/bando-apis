@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: tisane
+  description: Text Analytics with focus on detection of abusive content and law enforcement applications
   annotations:
     system: text-analysis-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: text-analysis-apis
   definition: |
     openapi: 3.0.0
     info:

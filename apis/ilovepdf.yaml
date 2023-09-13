@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: ilovepdf
+  description: Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month
   annotations:
     system: documents-&-productivity-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: documents-&-productivity-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: dialogflow
+  description: Natural Language Processing
   annotations:
     system: machine-learning-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: machine-learning-apis
   definition: |
     openapi: 3.0.0
     info:

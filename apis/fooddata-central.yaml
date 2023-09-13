@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: fooddata-central
+  description: National Nutrient Database for Standard Reference
   annotations:
     system: health-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: health-apis
   definition: |
     openapi: 3.0.0
     info:

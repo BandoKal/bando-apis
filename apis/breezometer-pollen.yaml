@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: breezometer-pollen
+  description: Daily Forecast pollen conditions data for a specific location
   annotations:
     system: environment-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: environment-apis
   definition: |
     openapi: 3.0.0
     info:

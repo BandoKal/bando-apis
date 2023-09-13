@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: metacert
+  description: Metacert Link Flagging
   annotations:
     system: anti-malware-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: anti-malware-apis
   definition: |
     openapi: 3.0.0
     info:

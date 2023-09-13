@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: skybiometry
+  description: Face Detection, Face Recognition and Face Grouping
   annotations:
     system: machine-learning-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: machine-learning-apis
   definition: |
     openapi: 3.0.0
     info:

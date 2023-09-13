@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: placekeanu
+  description: Resizable Keanu Reeves placeholder images with grayscale and young Keanu options
   annotations:
     system: photography-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: photography-apis
   definition: |
     openapi: 3.0.0
     info:

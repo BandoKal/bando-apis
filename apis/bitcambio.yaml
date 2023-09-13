@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: bitcambio
+  description: Get the list of all traded assets in the exchange
   annotations:
     system: cryptocurrency-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: cryptocurrency-apis
   definition: |
     openapi: 3.0.0
     info:

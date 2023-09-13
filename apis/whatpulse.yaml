@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: whatpulse
+  description: Small application that measures your keyboard/mouse usage
   annotations:
     system: tracking-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: tracking-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: ergast-f1
+  description: F1 data from the beginning of the world championships in 1950
   annotations:
     system: sports-&-fitness-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: sports-&-fitness-apis
   definition: |
     openapi: 3.0.0
     info:

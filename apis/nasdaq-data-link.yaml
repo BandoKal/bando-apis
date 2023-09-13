@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: nasdaq-data-link
+  description: Stock market data
   annotations:
     system: open-data-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: open-data-apis
   definition: |
     openapi: 3.0.0
     info:

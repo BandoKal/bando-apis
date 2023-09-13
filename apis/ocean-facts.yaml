@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: ocean-facts
+  description: Facts pertaining to the physical science of Oceanography
   annotations:
     system: science-&-math-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: science-&-math-apis
   definition: |
     openapi: 3.0.0
     info:

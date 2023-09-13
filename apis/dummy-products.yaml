@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: dummy-products
+  description: An api to fetch dummy e-commerce products JSON data with placeholder images
   annotations:
     system: shopping-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: shopping-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: flipkart-marketplace
+  description: Product listing management, Order Fulfilment in the Flipkart Marketplace
   annotations:
     system: shopping-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: shopping-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: zen-quotes
+  description: Large collection of Zen quotes for inspiration
   annotations:
     system: personality-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: personality-apis
   definition: |
     openapi: 3.0.0
     info:

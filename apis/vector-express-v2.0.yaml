@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: vector-express-v2.0
+  description: Free vector file converting API
   annotations:
     system: documents-&-productivity-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: documents-&-productivity-apis
   definition: |
     openapi: 3.0.0
     info:

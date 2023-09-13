@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: http-dog
+  description: Dogs for every HTTP response status code
   annotations:
     system: animals-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: animals-apis
   definition: |
     openapi: 3.0.0
     info:

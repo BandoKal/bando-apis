@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: mempool
+  description: Bitcoin API Service focusing on the transaction fee
   annotations:
     system: cryptocurrency-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: cryptocurrency-apis
   definition: |
     openapi: 3.0.0
     info:

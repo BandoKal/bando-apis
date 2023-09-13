@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: eventbrite
+  description: Find events
   annotations:
     system: events-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: events-apis
   definition: |
     openapi: 3.0.0
     info:

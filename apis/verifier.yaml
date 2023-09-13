@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: verifier
+  description: Verifies that a given email is real
   annotations:
     system: email-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: email-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: watson-natural-language-understanding
+  description: Natural language processing for advanced text analysis
   annotations:
     system: text-analysis-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: text-analysis-apis
   definition: |
     openapi: 3.0.0
     info:

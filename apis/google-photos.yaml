@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: google-photos
+  description: Integrate Google Photos with your apps or devices
   annotations:
     system: photography-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: photography-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: nlp-cloud
+  description: NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more
   annotations:
     system: machine-learning-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: machine-learning-apis
   definition: |
     openapi: 3.0.0
     info:

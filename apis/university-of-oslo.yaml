@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: university-of-oslo
+  description: Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)
   annotations:
     system: open-data-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: open-data-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: hirak-ocr
+  description: Image to text -text recognition- from image more than 100 language, accurate, unlimited requests
   annotations:
     system: text-analysis-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: text-analysis-apis
   definition: |
     openapi: 3.0.0
     info:

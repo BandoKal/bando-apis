@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: sendgrid
+  description: A cloud-based SMTP provider that allows you to send emails without having to maintain email servers
   annotations:
     system: email-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: email-apis
   definition: |
     openapi: 3.0.0
     info:

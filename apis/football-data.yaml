@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: football-data
+  description: Football data with matches info, players, teams, and competitions
   annotations:
     system: sports-&-fitness-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: sports-&-fitness-apis
   definition: |
     openapi: 3.0.0
     info:

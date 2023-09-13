@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: infermedica
+  description: NLP based symptom checker and patient triage API for health diagnosis from text
   annotations:
     system: health-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: health-apis
   definition: |
     openapi: 3.0.0
     info:

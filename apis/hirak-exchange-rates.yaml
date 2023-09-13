@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: hirak-exchange-rates
+  description: Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits
   annotations:
     system: cryptocurrency-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: cryptocurrency-apis
   definition: |
     openapi: 3.0.0
     info:

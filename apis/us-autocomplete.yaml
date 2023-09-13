@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: us-autocomplete
+  description: Enter address data quickly with real-time address suggestions
   annotations:
     system: data-validation-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: data-validation-apis
   definition: |
     openapi: 3.0.0
     info:

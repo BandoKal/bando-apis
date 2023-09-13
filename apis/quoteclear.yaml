@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: quoteclear
+  description: Ever-growing list of James Clear quotes from the 3-2-1 Newsletter
   annotations:
     system: personality-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: personality-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: lyrics.ovh
+  description: Simple API to retrieve the lyrics of a song
   annotations:
     system: music-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: music-apis
   definition: |
     openapi: 3.0.0
     info:

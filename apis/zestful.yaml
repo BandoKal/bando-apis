@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: zestful
+  description: Parse recipe ingredients
   annotations:
     system: food-&-drink-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: food-&-drink-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: an-api-of-ice-and-fire
+  description: Game Of Thrones API
   annotations:
     system: video-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: video-apis
   definition: |
     openapi: 3.0.0
     info:

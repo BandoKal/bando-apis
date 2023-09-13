@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: penguin-publishing
+  description: Books, book covers and related data
   annotations:
     system: books-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: books-apis
   definition: |
     openapi: 3.0.0
     info:

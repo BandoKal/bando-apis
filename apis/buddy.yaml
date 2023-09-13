@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: buddy
+  description: The fastest continuous integration and continuous delivery platform
   annotations:
     system: continuous-integration-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: continuous-integration-apis
   definition: |
     openapi: 3.0.0
     info:

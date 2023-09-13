@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: circleci
+  description: Automate the software development process using continuous integration and continuous delivery
   annotations:
     system: continuous-integration-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: continuous-integration-apis
   definition: |
     openapi: 3.0.0
     info:

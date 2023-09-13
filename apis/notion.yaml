@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: notion
+  description: Integrate with Notion
   annotations:
     system: documents-&-productivity-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: documents-&-productivity-apis
   definition: |
     openapi: 3.0.0
     info:

@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: sport-list-&-data
+  description: List of and resources related to sports
   annotations:
     system: sports-&-fitness-apis
 spec:
   type: openapi
   lifecycle: production
   owner: unknown
+  system: sports-&-fitness-apis
   definition: |
     openapi: 3.0.0
     info:
