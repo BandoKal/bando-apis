@@ -105,4 +105,4 @@ spec:
     - ./apis/the-graph.yaml
     - ./apis/walltime.yaml
     - ./apis/watchdata.yaml
-    - ./apis/a-bíblia-digital.yaml
+    # - ./apis/a-bíblia-digital.yaml
