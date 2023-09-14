@@ -15,7 +15,7 @@ spec:
     - ./apis/stoicism-quote.yaml
     - ./apis/they-said-so-quotes.yaml
     - ./apis/traitify.yaml
-    - ./apis/udemy(instructor).yaml
+    - ./apis/udemyinstructor.yaml
     - ./apis/vadivelu-http-codes.yaml
     - ./apis/zen-quotes.yaml
     - ./apis/abstract-phone-validation.yaml
@@ -62,7 +62,7 @@ spec:
     - ./apis/gbif.yaml
     - ./apis/idigbio.yaml
     - ./apis/inspirehep.net.yaml
-    - ./apis/iseven-(humor).yaml
+    - ./apis/iseven-humor.yaml
     - ./apis/isro.yaml
     - ./apis/itis.yaml
     - ./apis/launch-library-2.yaml

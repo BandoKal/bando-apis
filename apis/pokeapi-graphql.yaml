@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: pokeapi-graphql
+  description: The Unofficial GraphQL for PokeAPI
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: games-&-comics-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: PokéAPI (GraphQL)
+      version: 1.0.0
+      description: The Unofficial GraphQL for PokeAPI
+    externalDocs:
+      url: https://github.com/mazipan/graphql-pokeapi

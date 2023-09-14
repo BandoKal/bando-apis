@@ -81,7 +81,7 @@ spec:
     - ./apis/disney.yaml
     - ./apis/dota-2.yaml
     - ./apis/dungeons-and-dragons.yaml
-    - ./apis/dungeons-and-dragons-(alternate).yaml
+    - ./apis/dungeons-and-dragons-alternate.yaml
     - ./apis/eve-online.yaml
     - ./apis/ffxiv-collect.yaml
     - ./apis/fifa-ultimate-team.yaml

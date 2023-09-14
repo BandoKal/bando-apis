@@ -12,7 +12,7 @@ spec:
     - ./apis/haveibeenpwned.yaml
     - ./apis/intelligence-x.yaml
     - ./apis/loginradius.yaml
-    - ./apis/microsoft-security-response-center-(msrc).yaml
+    - ./apis/microsoft-security-response-center-msrc.yaml
     - ./apis/mozilla-http-scanner.yaml
     - ./apis/mozilla-tls-scanner.yaml
     - ./apis/national-vulnerability-database.yaml
@@ -84,14 +84,14 @@ spec:
     - ./apis/api-football.yaml
     - ./apis/apimedic.yaml
     - ./apis/balldontlie.yaml
-    - ./apis/canadian-football-league-(cfl).yaml
+    - ./apis/canadian-football-league-cfl.yaml
     - ./apis/city-bikes.yaml
     - ./apis/cloudbet.yaml
     - ./apis/collegefootballdata.com.yaml
     - ./apis/ergast-f1.yaml
     - ./apis/fitbit.yaml
     - ./apis/football.yaml
-    - ./apis/football-(soccer)-videos.yaml
+    - ./apis/football-soccer-videos.yaml
     - ./apis/football-standings.yaml
     - ./apis/football-data.yaml
     - ./apis/jcdecaux-bike.yaml

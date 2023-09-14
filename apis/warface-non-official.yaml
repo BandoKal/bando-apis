@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: warface-non-official
+  description: Official API proxy with better data structure and more features
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: games-&-comics-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Warface (non-official)
+      version: 1.0.0
+      description: Official API proxy with better data structure and more features
+    externalDocs:
+      url: https://api.wfstats.cf

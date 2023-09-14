@@ -24,7 +24,7 @@ spec:
     - ./apis/path-of-exile.yaml
     - ./apis/playerdb.yaml
     - ./apis/pokeapi.yaml
-    - ./apis/pokeapi-(graphql).yaml
+    - ./apis/pokeapi-graphql.yaml
     - ./apis/pokemon-tcg.yaml
     - ./apis/psychonauts.yaml
     - ./apis/pubg.yaml
@@ -47,8 +47,8 @@ spec:
     - ./apis/tetr.io.yaml
     - ./apis/tronald-dump.yaml
     - ./apis/universalis.yaml
-    - ./apis/valorant-(non-official).yaml
-    - ./apis/warface-(non-official).yaml
+    - ./apis/valorant-non-official.yaml
+    - ./apis/warface-non-official.yaml
     - ./apis/wargaming.net.yaml
     - ./apis/when-is-next-mcu-film.yaml
     - ./apis/xkcd.yaml

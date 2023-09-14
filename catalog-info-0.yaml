@@ -53,7 +53,7 @@ spec:
     - ./apis/waifu.im.yaml
     - ./apis/waifu.pics.yaml
     - ./apis/abuseipdb.yaml
-    - ./apis/alienvault-open-threat-exchange-(otx).yaml
+    - ./apis/alienvault-open-threat-exchange-otx.yaml
     - ./apis/capesandbox.yaml
     - ./apis/google-safe-browsing.yaml
     - ./apis/maldatabase.yaml

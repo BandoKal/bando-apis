@@ -71,7 +71,7 @@ spec:
     - ./apis/gun-policy.yaml
     - ./apis/inei.yaml
     - ./apis/interpol-red-notices.yaml
-    - ./apis/istanbul-(ibb)-open-data.yaml
+    - ./apis/istanbul-ibb-open-data.yaml
     - ./apis/national-park-service,-us.yaml
     - ./apis/open-government,-act.yaml
     - ./apis/open-government,-argentina.yaml
