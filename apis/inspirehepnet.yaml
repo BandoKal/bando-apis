@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: inspirehepnet
+  description: High Energy Physics info. system
+  annotations:
+    system: science-&-math-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: science-&-math-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: inspirehep.net
+      version: 1.0.0
+      description: High Energy Physics info. system
+    externalDocs:
+      url: https://github.com/inspirehep/rest-api-doc

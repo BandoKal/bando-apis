@@ -6,15 +6,15 @@ metadata:
   description: A collection of all Public apis from https://github.com/public-apis/public-apis
 spec:
   targets:
-    - ./apis/guild-wars-2.yaml
-    - ./apis/heroku.yaml
-    - ./apis/walltime.yaml
-    - ./apis/product-hunt.yaml
-    - ./apis/sport-places.yaml
-    - ./apis/openfda.yaml
-    - ./apis/nba-data.yaml
-    - ./apis/mempool.yaml
-    - ./apis/black-history-facts.yaml
-    - ./apis/geodata.gov.gr.yaml
-    - ./apis/vadivelu-http-codes.yaml
-    - ./apis/rebrandly.yaml
+    - ./apis/open-government-czech-republic.yaml
+    - ./apis/smartsheet.yaml
+    - ./apis/shrtcode.yaml
+    - ./apis/coinigy.yaml
+    - ./apis/smart-image-enhancement-api.yaml
+    - ./apis/chucknorrisio.yaml
+    - ./apis/recreation-information-database.yaml
+    - ./apis/university-of-oslo.yaml
+    - ./apis/jsdelivr.yaml
+    - ./apis/icelandic-apis.yaml
+    - ./apis/yandexmaps-geocoder.yaml
+    - ./apis/api-gratis.yaml

@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bobs-burgers
+  description: Bob's Burgers API
+  annotations:
+    system: video-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: video-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Bob's Burgers
+      version: 1.0.0
+      description: Bob's Burgers API
+    externalDocs:
+      url: https://bobs-burgers-api-ui.herokuapp.com

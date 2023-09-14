@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-government-czech-republic
+  description: Czech Republic Government Open Data
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: government-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Government, Czech Republic
+      version: 1.0.0
+      description: Czech Republic Government Open Data
+    externalDocs:
+      url: https://data.gov.cz/english/

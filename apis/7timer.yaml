@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: 7timer
+  description: Weather, especially for Astroweather
+  annotations:
+    system: weather-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: weather-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: 7Timer!
+      version: 1.0.0
+      description: Weather, especially for Astroweather
+    externalDocs:
+      url: http://www.7timer.info/doc.php?lang=en

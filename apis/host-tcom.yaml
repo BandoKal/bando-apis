@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: host-tcom
+  description: Basic DNS query via HTTP GET request
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: development-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: host-t.com
+      version: 1.0.0
+      description: Basic DNS query via HTTP GET request
+    externalDocs:
+      url: https://host-t.com

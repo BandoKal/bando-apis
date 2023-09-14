@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geocodifycom
+  description: Worldwide geocoding, geoparsing and autocomplete for addresses
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: geocoding-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Geocodify.com
+      version: 1.0.0
+      description: Worldwide geocoding, geoparsing and autocomplete for addresses
+    externalDocs:
+      url: https://geocodify.com/

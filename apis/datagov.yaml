@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: datagov
+  description: US Government Data
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: government-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Data.gov
+      version: 1.0.0
+      description: US Government Data
+    externalDocs:
+      url: https://api.data.gov/

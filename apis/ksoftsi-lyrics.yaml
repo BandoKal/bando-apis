@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ksoftsi-lyrics
+  description: API to get lyrics for songs
+  annotations:
+    system: music-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: music-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: KSoft.Si Lyrics
+      version: 1.0.0
+      description: API to get lyrics for songs
+    externalDocs:
+      url: https://docs.ksoft.si/api/lyrics-api

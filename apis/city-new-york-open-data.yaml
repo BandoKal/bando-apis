@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: city-new-york-open-data
+  description: New York (US) City Open Data
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: government-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: City, New York Open Data
+      version: 1.0.0
+      description: New York (US) City Open Data
+    externalDocs:
+      url: https://opendata.cityofnewyork.us/

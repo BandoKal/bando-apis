@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: postcodesio
+  description: Postcode lookup & Geolocation for the UK
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: geocoding-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Postcodes.io
+      version: 1.0.0
+      description: Postcode lookup & Geolocation for the UK
+    externalDocs:
+      url: https://postcodes.io

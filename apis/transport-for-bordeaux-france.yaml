@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: transport-for-bordeaux-france
+  description: Bordeaux Métropole public transport and more (France)
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: transportation-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Transport for Bordeaux, France
+      version: 1.0.0
+      description: Bordeaux Métropole public transport and more (France)
+    externalDocs:
+      url: https://opendata.bordeaux-metropole.fr/explore/

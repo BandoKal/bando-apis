@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gazette-data-uk
+  description: UK official public record API
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: government-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Gazette Data, UK
+      version: 1.0.0
+      description: UK official public record API
+    externalDocs:
+      url: https://www.thegazette.co.uk/data

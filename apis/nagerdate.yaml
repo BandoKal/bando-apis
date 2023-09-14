@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: nagerdate
+  description: Public holidays for more than 90 countries
+  annotations:
+    system: calendar-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: calendar-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Nager.Date
+      version: 1.0.0
+      description: Public holidays for more than 90 countries
+    externalDocs:
+      url: https://date.nager.at

@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geocodio
+  description: Address geocoding / reverse geocoding in bulk
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: geocoding-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Geocod.io
+      version: 1.0.0
+      description: Address geocoding / reverse geocoding in bulk
+    externalDocs:
+      url: https://www.geocod.io/

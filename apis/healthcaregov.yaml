@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: healthcaregov
+  description: Educational content about the US Health Insurance Marketplace
+  annotations:
+    system: health-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: health-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Healthcare.gov
+      version: 1.0.0
+      description: Educational content about the US Health Insurance Marketplace
+    externalDocs:
+      url: https://www.healthcare.gov/developers/

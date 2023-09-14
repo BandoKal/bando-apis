@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apitemplateio
+  description: Dynamically generate images and PDFs from templates with a simple API
+  annotations:
+    system: photography-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: photography-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: APITemplate.io
+      version: 1.0.0
+      description: Dynamically generate images and PDFs from templates with a simple API
+    externalDocs:
+      url: https://apitemplate.io

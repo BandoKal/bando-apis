@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: city-berlin
+  description: Berlin(DE) City Open Data
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: government-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: City, Berlin
+      version: 1.0.0
+      description: Berlin(DE) City Open Data
+    externalDocs:
+      url: https://daten.berlin.de/

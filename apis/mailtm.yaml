@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mailtm
+  description: Temporary Email Service
+  annotations:
+    system: email-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: email-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: mail.tm
+      version: 1.0.0
+      description: Temporary Email Service
+    externalDocs:
+      url: https://docs.mail.tm

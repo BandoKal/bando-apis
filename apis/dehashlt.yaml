@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dehashlt
+  description: Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512
+  annotations:
+    system: security-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: security-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Dehash.lt
+      version: 1.0.0
+      description: Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512
+    externalDocs:
+      url: https://github.com/Dehash-lt/api

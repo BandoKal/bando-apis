@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: open-government-taiwan
+  description: Taiwan Government Open Data
+  annotations:
+    system: government-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: government-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Open Government, Taiwan
+      version: 1.0.0
+      description: Taiwan Government Open Data
+    externalDocs:
+      url: https://data.gov.tw/

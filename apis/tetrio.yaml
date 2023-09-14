@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tetrio
+  description: TETR.IO Tetra Channel API
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: games-&-comics-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: TETR.IO
+      version: 1.0.0
+      description: TETR.IO Tetra Channel API
+    externalDocs:
+      url: https://tetr.io/about/api/

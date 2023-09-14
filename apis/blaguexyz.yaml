@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: blaguexyz
+  description: La plus grande API de Blagues FR/The biggest FR jokes API
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: development-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Blague.xyz
+      version: 1.0.0
+      description: La plus grande API de Blagues FR/The biggest FR jokes API
+    externalDocs:
+      url: https://blague.xyz/

@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: yandexweather
+  description: Assesses weather condition in specific locations
+  annotations:
+    system: weather-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: weather-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Yandex.Weather
+      version: 1.0.0
+      description: Assesses weather condition in specific locations
+    externalDocs:
+      url: https://yandex.com/dev/weather/

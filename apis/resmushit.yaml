@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: resmushit
+  description: Photo optimization
+  annotations:
+    system: photography-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: photography-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: ReSmush.it
+      version: 1.0.0
+      description: Photo optimization
+    externalDocs:
+      url: https://resmush.it/api

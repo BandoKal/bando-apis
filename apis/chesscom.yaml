@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: chesscom
+  description: Chess.com read-only REST API
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: games-&-comics-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Chess.com
+      version: 1.0.0
+      description: Chess.com read-only REST API
+    externalDocs:
+      url: https://www.chess.com/news/view/published-data-api

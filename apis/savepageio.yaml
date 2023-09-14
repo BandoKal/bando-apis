@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: savepageio
+  description: A free, RESTful API used to screenshot any desktop, or mobile website
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: development-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: SavePage.io
+      version: 1.0.0
+      description: A free, RESTful API used to screenshot any desktop, or mobile website
+    externalDocs:
+      url: https://www.savepage.io

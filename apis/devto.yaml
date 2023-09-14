@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: devto
+  description: Access Forem articles, users and other resources via API
+  annotations:
+    system: personality-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: personality-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Dev.to
+      version: 1.0.0
+      description: Access Forem articles, users and other resources via API
+    externalDocs:
+      url: https://developers.forem.com/api

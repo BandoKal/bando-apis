@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cepla
+  description: Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: geocoding-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Cep.la
+      version: 1.0.0
+      description: Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states
+    externalDocs:
+      url: http://cep.la/

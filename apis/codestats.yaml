@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: codestats
+  description: Automatic time tracking for programmers
+  annotations:
+    system: documents-&-productivity-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: documents-&-productivity-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Code::Stats
+      version: 1.0.0
+      description: Automatic time tracking for programmers
+    externalDocs:
+      url: https://codestats.net/api-docs

@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: wargamingnet
+  description: Wargaming.net info and stats
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: games-&-comics-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Wargaming.net
+      version: 1.0.0
+      description: Wargaming.net info and stats
+    externalDocs:
+      url: https://developers.wargaming.net/

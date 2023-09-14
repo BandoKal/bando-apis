@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: transport-for-lisbon-portugal
+  description: Data about buses routes, parking and traffic
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: transportation-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Transport for Lisbon, Portugal
+      version: 1.0.0
+      description: Data about buses routes, parking and traffic
+    externalDocs:
+      url: https://emel.city-platform.com/opendata/

@@ -40,9 +40,12 @@ for section in sections:
     for line in table_lines:
         match = re.match(r'\| \[(.+?)\]\((.+?)\) \| (.+?) \|', line)
         if match:
-            api_name = unidecode(match.group(1).lower()).replace("/ ","").replace(" ", "-").replace("(","").replace(")","")
-            if api_name.endswith("-"):
-              api_name = api_name[:-1]
+            # Begin api_name manipulation to match Backstage rule "expected a string that is sequences of [a-zA-Z0-9] separated by any of [-_.]"
+            api_name_initial = unidecode(match.group(1).lower()).replace("/ ", "").replace(" ", "-")
+            # Remove characters that are not [a-zA-Z0-9-]
+            api_name_cleaned = re.sub(r'[^a-zA-Z0-9-]', '', api_name_initial)
+            # Remove continuous dashes
+            api_name = re.sub(r'-+', '-', api_name_cleaned).strip('-')
             api_title = match.group(1)
             api_link = match.group(2)
             description = match.group(3)

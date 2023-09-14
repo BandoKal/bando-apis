@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: geodatagovgr
+  description: Open geospatial data and API service for Greece
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: geocoding-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Geodata.gov.gr
+      version: 1.0.0
+      description: Open geospatial data and API service for Greece
+    externalDocs:
+      url: https://geodata.gov.gr/en/

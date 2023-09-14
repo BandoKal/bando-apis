@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: logsto
+  description: Generate logs
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: development-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Logs.to
+      version: 1.0.0
+      description: Generate logs
+    externalDocs:
+      url: https://logs.to/

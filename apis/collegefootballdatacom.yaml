@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: collegefootballdatacom
+  description: Unofficial detailed American college football statistics, records, and results API
+  annotations:
+    system: sports-&-fitness-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: sports-&-fitness-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: CollegeFootballData.com
+      version: 1.0.0
+      description: Unofficial detailed American college football statistics, records, and results API
+    externalDocs:
+      url: https://collegefootballdata.com

@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: yu-gi-oh
+  description: Yu-Gi-Oh! TCG Information
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: games-&-comics-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Yu-Gi-Oh!
+      version: 1.0.0
+      description: Yu-Gi-Oh! TCG Information
+    externalDocs:
+      url: https://db.ygoprodeck.com/api-guide/

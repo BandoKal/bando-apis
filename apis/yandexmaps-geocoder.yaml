@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: yandexmaps-geocoder
+  description: Use geocoding to get an object's coordinates from its address
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: geocoding-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Yandex.Maps Geocoder
+      version: 1.0.0
+      description: Use geocoding to get an object's coordinates from its address
+    externalDocs:
+      url: https://yandex.com/dev/maps/geocoder

@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: adressedatagouvfr
+  description: Address database of France, geocoding and reverse
+  annotations:
+    system: geocoding-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: geocoding-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: adresse.data.gouv.fr
+      version: 1.0.0
+      description: Address database of France, geocoding and reverse
+    externalDocs:
+      url: https://adresse.data.gouv.fr

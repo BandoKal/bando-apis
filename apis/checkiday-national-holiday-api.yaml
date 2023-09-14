@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: checkiday-national-holiday-api
+  description: Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies
+  annotations:
+    system: calendar-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: calendar-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Checkiday - National Holiday API
+      version: 1.0.0
+      description: Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies
+    externalDocs:
+      url: https://apilayer.com/marketplace/checkiday-api

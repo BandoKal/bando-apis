@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: brainshopai
+  description: Make A Free A.I Brain
+  annotations:
+    system: development-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: development-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Brainshop.ai
+      version: 1.0.0
+      description: Make A Free A.I Brain
+    externalDocs:
+      url: https://brainshop.ai/

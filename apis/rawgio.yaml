@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: rawgio
+  description: 500,000+ games for 50 platforms including mobiles
+  annotations:
+    system: games-&-comics-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: games-&-comics-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: RAWG.io
+      version: 1.0.0
+      description: 500,000+ games for 50 platforms including mobiles
+    externalDocs:
+      url: https://rawg.io/apidocs

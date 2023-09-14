@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: transport-for-grenoble-france
+  description: Grenoble public transport
+  annotations:
+    system: transportation-apis
+spec:
+  type: openapi
+  lifecycle: production
+  owner: unknown
+  system: transportation-apis
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Transport for Grenoble, France
+      version: 1.0.0
+      description: Grenoble public transport
+    externalDocs:
+      url: https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html
