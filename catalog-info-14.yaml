@@ -6,28 +6,15 @@ metadata:
   description: A collection of all Public apis from https://github.com/public-apis/public-apis
 spec:
   targets:
-    - ./apis/aviationweather.yaml
-    - ./apis/colorfulclouds.yaml
-    - ./apis/euskalmet.yaml
-    - ./apis/foreca.yaml
-    - ./apis/hg-weather.yaml
-    - ./apis/hong-kong-obervatory.yaml
-    - ./apis/metaweather.yaml
-    - ./apis/meteorologisk-institutt.yaml
-    - ./apis/micro-weather.yaml
-    - ./apis/odweather.yaml
-    - ./apis/oikolab.yaml
-    - ./apis/open-meteo.yaml
-    - ./apis/opensensemap.yaml
-    - ./apis/openuv.yaml
-    - ./apis/openweathermap.yaml
-    - ./apis/qweather.yaml
-    - ./apis/rainviewer.yaml
-    - ./apis/storm-glass.yaml
-    - ./apis/tomorrow.yaml
-    - ./apis/us-weather.yaml
-    - ./apis/visual-crossing.yaml
-    - ./apis/weather-api.yaml
-    - ./apis/weatherapi.yaml
-    - ./apis/weatherbit.yaml
-    - ./apis/yandex.weather.yaml
+    - ./apis/guild-wars-2.yaml
+    - ./apis/heroku.yaml
+    - ./apis/walltime.yaml
+    - ./apis/product-hunt.yaml
+    - ./apis/sport-places.yaml
+    - ./apis/openfda.yaml
+    - ./apis/nba-data.yaml
+    - ./apis/mempool.yaml
+    - ./apis/black-history-facts.yaml
+    - ./apis/geodata.gov.gr.yaml
+    - ./apis/vadivelu-http-codes.yaml
+    - ./apis/rebrandly.yaml

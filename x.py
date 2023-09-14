@@ -79,6 +79,9 @@ def chunker(seq, size):
     """Split a sequence into chunks of the given size."""
     return (seq[pos:pos + size] for pos in range(0, len(seq), size))
 
+# Convert to set and back to list to remove dups
+generated_files = list(set(generated_files))
+
 # Format the list of targets for root_yaml_content
 chunks = list(chunker(generated_files, 100))
 
