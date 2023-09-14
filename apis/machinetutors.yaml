@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: machinetutors
-  description: AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP
+  description: AI Solutions, Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP
   annotations:
     system: machine-learning-apis
 spec:
