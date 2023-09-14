@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: city,-gdańsk
+  name: city,-gdansk
   description: Gdańsk (PL) City Open Data
   annotations:
     system: government-apis

@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: a-bíblia-digital
+  name: a-biblia-digital
   description: Do not worry about managing the multiple versions of the Bible
   annotations:
     system: books-apis

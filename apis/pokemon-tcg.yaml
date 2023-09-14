@@ -2,8 +2,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: pokéapi-(graphql)
-  description: The Unofficial GraphQL for PokeAPI
+  name: pokemon-tcg
+  description: Pokémon TCG Information
   annotations:
     system: games-&-comics-apis
 spec:
@@ -14,8 +14,8 @@ spec:
   definition: |
     openapi: 3.0.0
     info:
-      title: PokéAPI (GraphQL)
+      title: Pokémon TCG
       version: 1.0.0
-      description: The Unofficial GraphQL for PokeAPI
+      description: Pokémon TCG Information
     externalDocs:
-      url: https://github.com/mazipan/graphql-pokeapi
+      url: https://pokemontcg.io

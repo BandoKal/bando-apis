@@ -83,7 +83,7 @@ spec:
     - ./apis/24-pull-requests.yaml
     - ./apis/abstract-screenshot.yaml
     - ./apis/agify.io.yaml
-    - ./apis/api-grátis.yaml
+    - ./apis/api-gratis.yaml
     - ./apis/apicagent.yaml
     - ./apis/apiflash.yaml
     - ./apis/apilayer-userstack.yaml

@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: grünstromindex
+  name: grunstromindex
   description: Green Power Index for Germany (Grünstromindex/GSI)
   annotations:
     system: environment-apis

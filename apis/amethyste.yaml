@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: améthyste
+  name: amethyste
   description: Generate images for Discord users
   annotations:
     system: art-&-design-apis

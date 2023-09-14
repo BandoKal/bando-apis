@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: istanbul-(i̇bb)-open-data
+  name: istanbul-(ibb)-open-data
   description: Data sets from the İstanbul Metropolitan Municipality (İBB)
   annotations:
     system: government-apis

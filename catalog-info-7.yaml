@@ -47,7 +47,7 @@ spec:
     - ./apis/brazilian-chamber-of-deputies-open-data.yaml
     - ./apis/census.gov.yaml
     - ./apis/city,-berlin.yaml
-    - ./apis/city,-gdańsk.yaml
+    - ./apis/city,-gdansk.yaml
     - ./apis/city,-gdynia.yaml
     - ./apis/city,-helsinki.yaml
     - ./apis/city,-lviv.yaml
@@ -71,7 +71,7 @@ spec:
     - ./apis/gun-policy.yaml
     - ./apis/inei.yaml
     - ./apis/interpol-red-notices.yaml
-    - ./apis/istanbul-(i̇bb)-open-data.yaml
+    - ./apis/istanbul-(ibb)-open-data.yaml
     - ./apis/national-park-service,-us.yaml
     - ./apis/open-government,-act.yaml
     - ./apis/open-government,-argentina.yaml

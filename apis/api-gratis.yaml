@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: api-grátis
+  name: api-gratis
   description: Multiples services and public APIs
   annotations:
     system: development-apis

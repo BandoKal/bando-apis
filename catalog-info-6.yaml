@@ -23,9 +23,9 @@ spec:
     - ./apis/pandascore.yaml
     - ./apis/path-of-exile.yaml
     - ./apis/playerdb.yaml
-    - ./apis/pokéapi.yaml
-    - ./apis/pokéapi-(graphql).yaml
-    - ./apis/pokémon-tcg.yaml
+    - ./apis/pokeapi.yaml
+    - ./apis/pokeapi-(graphql).yaml
+    - ./apis/pokemon-tcg.yaml
     - ./apis/psychonauts.yaml
     - ./apis/pubg.yaml
     - ./apis/puyo-nexus.yaml

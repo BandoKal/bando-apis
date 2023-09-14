@@ -74,7 +74,7 @@ spec:
     - ./apis/cloverly.yaml
     - ./apis/co2-offset.yaml
     - ./apis/danish-data-service-energi.yaml
-    - ./apis/grünstromindex.yaml
+    - ./apis/grunstromindex.yaml
     - ./apis/iqair.yaml
     - ./apis/luchtmeetnet.yaml
     - ./apis/national-grid-eso.yaml

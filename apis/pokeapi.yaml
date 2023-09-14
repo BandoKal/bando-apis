@@ -2,8 +2,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: pokémon-tcg
-  description: Pokémon TCG Information
+  name: pokeapi
+  description: Pokémon Information
   annotations:
     system: games-&-comics-apis
 spec:
@@ -14,8 +14,8 @@ spec:
   definition: |
     openapi: 3.0.0
     info:
-      title: Pokémon TCG
+      title: Pokéapi
       version: 1.0.0
-      description: Pokémon TCG Information
+      description: Pokémon Information
     externalDocs:
-      url: https://pokemontcg.io
+      url: https://pokeapi.co

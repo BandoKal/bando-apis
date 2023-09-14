@@ -74,7 +74,7 @@ spec:
     - ./apis/scoop.it.yaml
     - ./apis/socrata.yaml
     - ./apis/teleport.yaml
-    - ./apis/umeå-open-data.yaml
+    - ./apis/umea-open-data.yaml
     - ./apis/universities-list.yaml
     - ./apis/university-of-oslo.yaml
     - ./apis/upc-database.yaml
