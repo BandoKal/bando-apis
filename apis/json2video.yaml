@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: json2video
-  description: Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations
+  description: Create and edit videos programmatically watermarks,resizing,slideshows,voice-over,text animations
   annotations:
     system: video-apis
 spec:
