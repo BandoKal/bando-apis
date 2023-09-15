@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: scryfall
-  description: Magic: The Gathering database
+  description: Magic The Gathering database
   annotations:
     system: games-&-comics-apis
 spec:
