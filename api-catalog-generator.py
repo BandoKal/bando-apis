@@ -41,14 +41,14 @@ for section in sections:
         match = re.match(r'\| \[(.+?)\]\((.+?)\) \| (.+?) \|', line)
         if match:
             # Begin api_name manipulation to match Backstage rule "expected a string that is sequences of [a-zA-Z0-9] separated by any of [-_.]"
-            api_name_initial = unidecode(match.group(1).lower()).replace("/ ", "").replace(" ", "-")
+            api_name_initial = unidecode(match.group(1).lower()).replace("/ ", "").replace(" ", "-").replace(":", "")
             # Remove characters that are not [a-zA-Z0-9-]
             api_name_cleaned = re.sub(r'[^a-zA-Z0-9-]', '', api_name_initial)
             # Remove continuous dashes
             api_name = re.sub(r'-+', '-', api_name_cleaned).strip('-')
-            api_title = match.group(1)
+            api_title = match.group(1).replace(":", "")
             api_link = match.group(2)
-            description = match.group(3)
+            description = match.group(3).replace(":", "")
             
             yaml_content = f"""
 apiVersion: backstage.io/v1alpha1
